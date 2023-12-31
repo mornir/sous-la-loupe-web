@@ -1,0 +1,13 @@
+---
+import fiches from '../../data/fiches.json'
+
+export function getStaticPaths() {
+  return fiches.map((fiche) => {
+    return { params: { slug: fiche.slug }, props: { fiche } }
+  })
+}
+
+const { fiche } = Astro.props
+---
+
+<h1>Fiche: {fiche.term}!</h1>
