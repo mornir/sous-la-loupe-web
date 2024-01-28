@@ -1,5 +1,4 @@
 ---
-import groupBy from 'lodash.groupby'
 import Layout from '../../layouts/Layout.astro'
 import fiches from '../../data/fiches.json'
 
@@ -11,32 +10,56 @@ export function getStaticPaths() {
 
 const { fiche } = Astro.props
 
-const { traductions } = fiche
+const { traductions, exemples } = fiche
 
-const groups = Object.keys(groupBy(traductions, 'sens'))
+// @ts-ignore
+const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
-  <article class="m-24 border-orange-300 border-4 p-20 rounded-lg">
+  <article class="m-24 border-primary border-4 p-20 rounded-lg">
     <header>
       <h1 class="text-3xl font-bold">{fiche.vedette}</h1>
     </header>
 
-    <div class="grid grid-cols-[auto_1fr] gap-y-8 gap-x-16 mt-12">
-      {
-        groups.map((group) => (
-          <>
-            <h3 class="text-lg">{group}</h3>
-            <ul>
-              {traductions
-                .filter((trad) => trad.sens == group)
-                .map((trad) => (
-                  <li class="text-lg">{trad.terme}</li>
-                ))}
-            </ul>
-          </>
-        ))
-      }
+    <div class="flex flex-wrap gap-x-24">
+      <section>
+        <h2 class="mt-8 text-2xl">Traductions proposées</h2>
+
+        <div class="grid grid-cols-[auto_1fr] gap-y-8 gap-x-16 mt-8">
+          {
+            groups.map(([group, translations]) => (
+              <>
+                <h3 class="text-lg">{group}</h3>
+                <ul>
+                  {
+                    // @ts-ignore
+                    translations.map((t) => (
+                      <li class="text-xl mb-2">{t.terme}</li>
+                    ))
+                  }
+                </ul>
+              </>
+            ))
+          }
+        </div>
+      </section>
+
+      <section>
+        <h2 class="mt-8 text-2xl">Exemples</h2>
+        <div class="mt-8">
+          <ul>
+            {
+              exemples.map((ex) => (
+                <li class="text-lg mb-4">
+                  <p>{ex.de}</p>
+                  <p>{ex.fr}</p>
+                </li>
+              ))
+            }
+          </ul>
+        </div>
+      </section>
     </div>
 
     <!--     <ul>

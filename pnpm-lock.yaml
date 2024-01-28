@@ -11,12 +11,6 @@ dependencies:
   astro:
     specifier: ^4.0.8
     version: 4.0.8
-  core-js:
-    specifier: ^3.35.1
-    version: 3.35.1
-  lodash.groupby:
-    specifier: ^4.6.0
-    version: 4.6.0
   tailwindcss:
     specifier: ^3.4.0
     version: 3.4.0
@@ -1374,11 +1368,6 @@ packages:
     engines: {node: '>= 0.6'}
     dev: false
 
-  /core-js@3.35.1:
-    resolution: {integrity: sha512-IgdsbxNyMskrTFxa9lWHyMwAJU5gXOPP+1yO+K59d50VLVAIDAbs7gIv705KzALModfK3ZrSZTPNpC0PQgIZuw==}
-    requiresBuild: true
-    dev: false
-
   /cross-spawn@7.0.3:
     resolution: {integrity: sha512-iRDPJKUPVEND7dHPO8rkbOnPpyDygcDFtWjpeWNCgy8WP2rXcxXL8TskReQl6OrB2G7+UJrags1q15Fudc7G6w==}
     engines: {node: '>= 8'}
@@ -2071,10 +2060,6 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       p-locate: 5.0.0
-    dev: false
-
-  /lodash.groupby@4.6.0:
-    resolution: {integrity: sha512-5dcWxm23+VAoz+awKmBaiBvzox8+RqMgFhi7UvX9DHZr2HdxHXM/Wrf8cfKpsW37RNrvtPn6hSwNqurSILbmJw==}
     dev: false
 
   /lodash.merge@4.6.2:
