@@ -17,25 +17,29 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
-  <article class="m-24 border-primary border-4 p-20 rounded-lg">
+  <article
+    class="my-24 border-primary border-4 p-20 rounded-lg max-w-screen-xl mx-auto"
+  >
     <header>
       <h1 class="text-3xl font-bold">{fiche.vedette}</h1>
     </header>
 
-    <div class="flex flex-wrap gap-x-24">
+    <div class="grid grid-cols-[1fr_1fr] gap-x-20">
       <section>
         <h2 class="mt-8 text-2xl">Traductions proposées</h2>
 
-        <div class="grid grid-cols-[auto_1fr] gap-y-8 gap-x-16 mt-8">
+        <div
+          class="grid grid-cols-[auto_1fr] gap-y-8 gap-x-16 mt-8 bg-slate-50 py-2 px-4"
+        >
           {
             groups.map(([group, translations]) => (
               <>
-                <h3 class="text-lg">{group}</h3>
+                <h3 class="text-sm">{group}</h3>
                 <ul>
                   {
                     // @ts-ignore
                     translations.map((t) => (
-                      <li class="text-xl mb-2">{t.terme}</li>
+                      <li class="text-xl mb-2 ">{t.terme}</li>
                     ))
                   }
                 </ul>
@@ -47,13 +51,13 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
 
       <section>
         <h2 class="mt-8 text-2xl">Exemples</h2>
-        <div class="mt-8">
+        <div class="mt-8 max-w-prose">
           <ul>
             {
               exemples.map((ex) => (
-                <li class="text-lg mb-4">
-                  <p>{ex.de}</p>
-                  <p>{ex.fr}</p>
+                <li class="text-lg mb-4 odd:bg-slate-200 even:bg-slate-100 py-2 px-4 rounded-md">
+                  <p set:html={ex.de} class="mb-4" />
+                  <p set:html={ex.fr} />
                 </li>
               ))
             }
