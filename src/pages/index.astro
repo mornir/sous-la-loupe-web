@@ -1,10 +1,19 @@
 ---
+import { Image } from 'astro:assets'
+import localBirdImage from '../images/sous_la_loupe_logo_1660.jpg'
 import Layout from '../layouts/Layout.astro'
 import SearchBox from '../components/SearchBox.vue'
 ---
 
 <Layout title="Recherche | sous la loupe">
-  <main class="p-12">
-    <SearchBox client:load />
+  <main class="p-12 grid place-items-center min-h-screen">
+    <div class="max-w-sm -mt-12">
+      <Image
+        src={localBirdImage}
+        alt="A bird sitting on a nest of eggs."
+        class="mx-auto mb-8"
+      />
+      <SearchBox client:only />
+    </div>
   </main>
 </Layout>
