@@ -10,7 +10,7 @@ export function getStaticPaths() {
 
 const { fiche } = Astro.props
 
-const { traductions, exemples } = fiche
+const { traductions, exemples, liens } = fiche
 
 // @ts-ignore
 const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
@@ -29,12 +29,12 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
         <h2 class="mt-8 text-2xl">Traductions proposées</h2>
 
         <div
-          class="grid grid-cols-[auto_1fr] gap-y-8 gap-x-16 mt-8 bg-slate-50 py-2 px-4"
+          class="grid grid-cols-[auto_1fr] items-baseline gap-y-8 gap-x-16 mt-8 bg-slate-50 py-2 px-4 rounded-md"
         >
           {
             groups.map(([group, translations]) => (
               <>
-                <h3 class="text-sm">{group}</h3>
+                <h3 class="text-sm align-baseline">{group}</h3>
                 <ul>
                   {
                     // @ts-ignore
@@ -49,38 +49,41 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
         </div>
       </section>
 
-      <section>
-        <h2 class="mt-8 text-2xl">Exemples</h2>
-        <div class="mt-8 max-w-prose">
-          <ul>
-            {
-              exemples.map((ex) => (
-                <li class="text-lg mb-4 odd:bg-slate-200 even:bg-slate-100 py-2 px-4 rounded-md">
-                  <p set:html={ex.de} class="mb-4" />
-                  <p set:html={ex.fr} />
-                </li>
-              ))
-            }
-          </ul>
-        </div>
-      </section>
-    </div>
+      {
+        exemples.length > 0 && (
+          <section>
+            <h2 class="mt-8 text-2xl">Exemples</h2>
+            <div class="mt-8 max-w-prose">
+              <ul>
+                {exemples.map((ex) => (
+                  <li class="text-lg mb-4 odd:bg-slate-200 even:bg-slate-100 py-2 px-4 rounded-md">
+                    <p set:html={ex.de} class="mb-4" />
+                    <p set:html={ex.fr} />
+                  </li>
+                ))}
+              </ul>
+            </div>
+          </section>
+        )
+      }
 
-    <!--     <ul>
-      {groups.map((group) => <li class="text-lg">{group[0]}</li>)}
-    </ul>
- -->
-    <!--   <div>
-      <ul>
-        {
-          fiche.liens.map((lien) => (
-            <li class="text-lg">
-              <a href={`/fiches/${lien.slug}/`} class="underline">
-                {lien.vedette}
-              </a>
-            </li>
-          ))
-        }
-      </ul> -->
+      {
+        liens.length > 0 && (
+          <section>
+            <h2 class="mt-8 text-2xl">Voir aussi</h2>
+
+            <ul class="mt-8">
+              {liens.map((l) => (
+                <li>
+                  <a href={'/fiches/' + l.slug} class="text-accent text-lg">
+                    {l.vedette}
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )
+      }
+    </div>
   </article>
 </Layout>
