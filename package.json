@@ -10,9 +10,12 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@astrojs/alpinejs": "^0.4.0",
     "@astrojs/tailwind": "^5.1.0",
     "@astrojs/vue": "^4.0.8",
     "@iconify-json/mdi": "^1.1.64",
+    "@types/alpinejs": "^3.13.6",
+    "alpinejs": "^3.13.5",
     "astro": "^4.3.2",
     "astro-icon": "^1.1.0",
     "fuse.js": "^7.0.0",

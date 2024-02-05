@@ -1,19 +1,43 @@
 ---
-import { Image } from 'astro:assets'
-import localBirdImage from '../images/sous_la_loupe_logo_1660.jpg'
+/* import { Image } from 'astro:assets'
+import localBirdImage from '../images/sous_la_loupe_logo_1660.jpg' */
 import Layout from '../layouts/Layout.astro'
-import SearchBox from '../components/SearchBox.vue'
+/* import SearchBox from '../components/SearchBox.vue' */
 ---
 
 <Layout title="Recherche | sous la loupe">
   <main class="p-12 grid place-items-center min-h-screen">
     <div class="max-w-sm -mt-12">
-      <Image
+      <!--       <Image
         src={localBirdImage}
         alt="A bird sitting on a nest of eggs."
         class="mx-auto mb-8"
-      />
-      <SearchBox client:only />
+      /> -->
+      <!--     <SearchBox client:only /> -->
+    </div>
+
+    <div class="relative" x-data="search">
+      <div class="flex flex-wrap items-stretch">
+        <input
+          autocomplete="off"
+          type="search"
+          class="flex-auto rounded-l border border-solid border-neutral-300 px-3 py-2 text-neutral-700 outline-none transition duration-200 ease-in-out focus:border-primary focus:text-neutral-700 focus:shadow-inner focus:outline-none dark:border-neutral-600 dark:text-neutral-500 dark:placeholder:text-neutral-500 dark:focus:border-primary"
+          placeholder="Rechercher un mot allemand"
+          aria-label="Rechercher"
+          x-model="searchPattern"
+        />
+      </div>
+      <ul
+        class="border-2 mt-2 shadow-lg p-2 absolute w-full"
+        x-show="showBox"
+        @click.outside="showBox = false"
+      >
+        <template x-for="result in searchResults" :key="result.item.id">
+          <li class="py-2 text-lg">
+            <a x-text="result.item.vedette"></a>
+          </li>
+        </template>
+      </ul>
     </div>
   </main>
 </Layout>
