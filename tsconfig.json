@@ -7,6 +7,6 @@
       "@assets/*": ["src/assets/*"]
     },
     "resolveJsonModule": true,
-    "moduleResolution": "NodeNext"
+    "moduleResolution": "nodenext"
   }
 }

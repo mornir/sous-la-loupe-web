@@ -1,3 +1,5 @@
+//TODO: DELETE
+
 import Fuse from 'fuse.js'
 import list from './data/vedettes.json'
 
