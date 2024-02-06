@@ -1,6 +1,7 @@
 ---
 import Layout from '../../layouts/Layout.astro'
 import fiches from '../../data/fiches.json'
+import AlpineSearchBox from '@components/AlpineSearchBox.astro'
 
 export function getStaticPaths() {
   return fiches.map((fiche) => {
@@ -17,6 +18,7 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
+  <AlpineSearchBox />
   <article
     class="my-24 border-primary border-4 p-20 rounded-lg max-w-screen-xl mx-auto"
   >
