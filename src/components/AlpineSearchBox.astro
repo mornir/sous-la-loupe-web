@@ -1,27 +1,36 @@
-<div class="relative" x-data="search">
-  <div class="flex flex-wrap items-stretch">
+---
+import { Icon } from 'astro-icon/components'
+---
+
+<form autocomplete="off" x-data="search" class="relative max-w-lg mx-auto">
+  <div class="flex text-xl">
     <input
-      autocomplete="off"
-      type="search"
-      class="flex-auto rounded-l border border-solid border-neutral-300 px-3 py-2 text-neutral-700 outline-none transition duration-200 ease-in-out focus:border-primary focus:text-neutral-700 focus:shadow-inner focus:outline-none dark:border-neutral-600 dark:text-neutral-500 dark:placeholder:text-neutral-500 dark:focus:border-primary"
-      placeholder="Rechercher un mot allemand"
-      aria-label="Rechercher"
       x-model="searchPattern"
+      type="search"
+      class="flex-1 w-4/5 p-4 shadow-md focus:outline-none rounded-lg rounded-r-none focus:border-accent border-2 border-primary hover:border-accent"
+      placeholder="Rechercher un terme allemand"
     />
+    <button
+      class="text-white px-2 shadow-md bg-primary rounded-md rounded-l-none focus:outline-none focus:bg-accent hover:bg-accent"
+      type="button"
+      ><Icon name="mdi:magnify" class="inline-block text-3xl" /></button
+    >
   </div>
   <ul
-    class="border-2 mt-2 shadow-lg p-2 absolute w-full"
+    class="border-2 mt-2 shadow-lg absolute rounded-lg"
     x-show="showBox"
     @click.outside="showBox = false"
   >
     <template x-for="result in searchResults" :key="result.item.id">
-      <li class="py-2 text-lg">
-        <a :href="'/fiches/' + result.item.slug" x-text="result.item.vedette"
-        ></a>
+      <li class="hover:bg-accent hover:text-white">
+        <a
+          :href="'/fiches/' + result.item.slug"
+          x-text="result.item.vedette"
+          class="text-lg py-2 px-8 block"></a>
       </li>
     </template>
   </ul>
-</div>
+</form>
 
 <script>
   import Alpine from 'alpinejs'

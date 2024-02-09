@@ -1,20 +1,13 @@
 ---
-import { Image } from 'astro:assets'
-/* import localBirdImage from '../images/sous_la_loupe_logo_1660.jpg' */
 import Layout from '../layouts/Layout.astro'
-
 import AlpineSearchBox from '@components/AlpineSearchBox.astro'
 ---
 
 <Layout title="Recherche | sous la loupe">
-  <main class="p-12 grid place-items-center min-h-screen">
-    <div class="max-w-sm -mt-12">
-      <!--      <Image
-        src={localBirdImage}
-        alt="Logo sous la loupe"
-        class="mx-auto mb-8"
-      /> -->
-
+  <main class="p-12 grid items-center min-h-screen">
+    <div class="-mt-12">
+      <h1 class="text-5xl text-center mb-6">sous la loupe</h1>
+      <!-- <img src="/logo.webp" alt="Logo sous la loupe" class="mb-6" /> -->
       <AlpineSearchBox />
     </div>
   </main>
