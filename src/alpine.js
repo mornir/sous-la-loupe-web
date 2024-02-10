@@ -1,3 +1,5 @@
+//TODO: DELETE
+
 import Fuse from 'fuse.js'
 import list from './data/vedettes.json'
 
@@ -23,7 +25,7 @@ export default (Alpine) => {
   Alpine.data('search', () => ({
     searchPattern: '',
     showBox: false,
-
+    selectedIndex: null,
     get searchResults() {
       if (!this.searchPattern) return []
       this.showBox = true
