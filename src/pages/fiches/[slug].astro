@@ -32,7 +32,7 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
     class="my-24 border-primary border-4 p-20 rounded-lg max-w-screen-xl mx-auto"
   >
     <header>
-      <h1 class="text-3xl font-bold">{fiche.vedette}</h1>
+      <h1 lang="de" class="text-3xl font-bold">{fiche.vedette}</h1>
     </header>
 
     <div class="grid grid-cols-[1fr_1fr] gap-x-20">
@@ -68,7 +68,7 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
               <ul>
                 {exemples.map((ex) => (
                   <li class="text-lg mb-4 odd:bg-slate-200 even:bg-slate-100 py-2 px-4 rounded-md">
-                    <p set:html={ex.de} class="mb-4" />
+                    <p lang="de" set:html={ex.de} class="mb-4" />
                     <p set:html={ex.fr} />
                   </li>
                 ))}
