@@ -18,7 +18,7 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
-  <div class="my-8">
+  <div class="mt-8">
     <a href="/">
       <img
         src="/logo.webp"
@@ -28,29 +28,34 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
     </a>
     <AlpineSearchBox />
   </div>
+
   <article
-    class="my-24 border-primary border-4 p-8 md:p-12 lg:p-20 rounded-lg max-w-screen-xl mx-auto"
+    class="mb-24 mt-12 lg:mt-20 border-primary border-4 p-5 sm:p-8 md:p-12 xl:p-20 rounded-lg max-w-screen-xl mx-auto"
   >
     <header>
-      <h1 lang="de" class="text-3xl font-bold">{fiche.vedette}</h1>
+      <h1 lang="de" class="lg:text-3xl text-2xl font-bold">
+        {fiche.vedette}
+      </h1>
     </header>
 
-    <div class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-x-20">
+    <div
+      class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-x-10 xl:gap-x-15 2xl:gap-x-20"
+    >
       <section>
-        <h2 class="mt-8 text-2xl">Traductions proposées</h2>
+        <h2 class="mt-8 lg:text-2xl text-xl">Traductions proposées</h2>
 
         <div
-          class="grid grid-cols-[auto_1fr] items-baseline gap-y-8 gap-x-16 mt-8 bg-slate-50 py-2 px-4 rounded-md"
+          class="grid lg:grid-cols-[auto_1fr] lg:items-baseline gap-y-4 lg:gap-y-8 gap-x-16 lg:mt-8 mt-4 bg-slate-50 py-2 px-4 rounded-md max-w-prose"
         >
           {
             groups.map(([group, translations]) => (
               <>
-                <h3 class="text-sm align-baseline">{group}</h3>
+                <h3 class="lg:text-sm text-xs align-baseline">{group}</h3>
                 <ul>
                   {
                     // @ts-ignore
                     translations.map((t) => (
-                      <li class="text-xl mb-2 ">{t.terme}</li>
+                      <li class="lg:text-xl text-lg mb-2 ">{t.terme}</li>
                     ))
                   }
                 </ul>
@@ -63,12 +68,12 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
       {
         exemples.length > 0 && (
           <section>
-            <h2 class="mt-8 text-2xl">Exemples</h2>
-            <div class="mt-8 max-w-prose">
+            <h2 class="mt-8 lg:text-2xl text-xl">Exemples</h2>
+            <div class="mt-8 max-w-prose ">
               <ul>
                 {exemples.map((ex) => (
-                  <li class="text-lg mb-4 odd:bg-slate-200 even:bg-slate-100 py-2 px-4 rounded-md">
-                    <p lang="de" set:html={ex.de} class="mb-4" />
+                  <li class="lg:text-lg mb-4 odd:bg-slate-200 even:bg-slate-100 py-2 px-4 rounded-md">
+                    <p lang="de" set:html={ex.de} class="mb-4 " />
                     <p set:html={ex.fr} />
                   </li>
                 ))}
@@ -81,7 +86,7 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
       {
         liens.length > 0 && (
           <section>
-            <h2 class="mt-8 text-2xl">Voir aussi</h2>
+            <h2 class="mt-8 lg:text-2xl text-xl">Voir aussi</h2>
 
             <ul class="mt-6">
               {liens.map((l) => (
