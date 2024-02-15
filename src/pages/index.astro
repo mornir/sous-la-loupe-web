@@ -1,6 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import AlpineSearchBox from '@components/AlpineSearchBox.astro'
+
+const pages = [
+  { name: 'Télécharger les fiches', slug: '#' },
+  { name: "Correspondre aujourd'hui", slug: '#' },
+  { name: 'Contact', slug: '#' },
+  { name: 'À propos', slug: '#' },
+]
 ---
 
 <Layout title="Recherche | sous la loupe">
@@ -12,4 +19,14 @@ import AlpineSearchBox from '@components/AlpineSearchBox.astro'
     />
     <AlpineSearchBox />
   </div>
+
+  <nav class="flex flex-col items-center mt-24 gap-y-4">
+    {
+      pages.map((p) => (
+        <a href="#" class="text-lg text-accent font-bold hover:underline ">
+          {p.name}
+        </a>
+      ))
+    }
+  </nav>
 </Layout>
