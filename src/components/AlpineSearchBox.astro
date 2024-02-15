@@ -9,13 +9,13 @@ import { Icon } from 'astro-icon/components'
   @submit.prevent="goToFiche"
 >
   <div class="relative flex items-center">
+    <label for="search-field" class="sr-only"
+      >Rechercher un terme allemand</label
+    >
     <Icon
       name="mdi:magnify"
       class="text-5xl absolute pointer-events-none text-gray-400 pl-4"
     />
-    <label for="search-field" class="sr-only"
-      >Rechercher un terme allemand</label
-    >
     <input
       id="search-field"
       x-model="searchPattern"

@@ -20,6 +20,9 @@ dependencies:
   alpinejs:
     specifier: ^3.13.5
     version: 3.13.5
+  alpinejs-masonry:
+    specifier: ^1.0.14
+    version: 1.0.14
   astro:
     specifier: ^4.3.2
     version: 4.3.2
@@ -907,6 +910,10 @@ packages:
     resolution: {integrity: sha512-Y9rRfJG5jcKOE0CLisYbojUjIrIEE7AGMzA/Sm4BslANhbS+cDMpgBdcPT91oJ7OuJ9hYJBx59RjbhxVnrF8Xg==}
     engines: {node: '>=0.4.0'}
     hasBin: true
+    dev: false
+
+  /alpinejs-masonry@1.0.14:
+    resolution: {integrity: sha512-uc8ykOU+Kpf7ELGXyBKW3uZz6rGMRrGZ3YOjIpyiYK5eJWZhiRswgBTyHviKMyscWK7dQHdGpXGeXnwobzAKzA==}
     dev: false
 
   /alpinejs@3.13.5:
