@@ -6,5 +6,5 @@ import alpinejs from '@astrojs/alpinejs'
 
 // https://astro.build/config
 export default defineConfig({
-  integrations: [tailwind(), icon(), alpinejs()],
+  integrations: [tailwind(), icon(), alpinejs({ entrypoint: '/src/alpine' })],
 })

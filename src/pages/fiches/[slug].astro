@@ -36,8 +36,11 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
       </h1>
     </header>
 
+    <!-- style="grid-template-rows: masonry" -->
     <div
-      class="grid grid-cols-1 lg:grid-cols-[1fr_1fr] gap-x-10 xl:gap-x-15 2xl:gap-x-20"
+      class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start"
+      x-data
+      x-masonry
     >
       <section>
         <h2 class="mt-8 lg:text-2xl text-xl">Traductions proposées</h2>
@@ -90,10 +93,13 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
           <section>
             <h2 class="mt-8 lg:text-2xl text-xl">Voir aussi</h2>
 
-            <ul class="mt-6">
+            <ul class="mt-6 flex flex-col gap-y-4">
               {liens.map((l) => (
                 <li>
-                  <a href={'/fiches/' + l.slug} class="text-accent text-lg">
+                  <a
+                    href={'/fiches/' + l.slug}
+                    class="text-accent text-lg hover:underline"
+                  >
                     {l.vedette}
                   </a>
                 </li>
