@@ -18,13 +18,11 @@ const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
-  <div class="mt-8">
+  <div
+    class="mt-8 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-6"
+  >
     <a href="/">
-      <img
-        src="/logo.webp"
-        alt="Logo sous la loupe"
-        class="w-24 mx-auto mb-2"
-      />
+      <img src="/logo.webp" alt="Logo sous la loupe" class="w-32 sm:w-24" />
     </a>
     <AlpineSearchBox />
   </div>
