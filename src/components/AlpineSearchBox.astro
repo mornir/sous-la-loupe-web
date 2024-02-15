@@ -5,7 +5,7 @@ import { Icon } from 'astro-icon/components'
 <form
   x-data="search"
   x-init="$refs.searchInput.focus()"
-  class="relative max-w-lg mx-auto"
+  class="relative flex-1 max-w-lg w-full"
   @submit.prevent="goToFiche"
 >
   <div class="relative flex items-center">
@@ -54,7 +54,7 @@ import { Icon } from 'astro-icon/components'
     <template x-for="(result, index) in searchResults" :key="result.item.id">
       <li
         lang="de"
-        class="hover:bg-[#e6bd9e] first-of-type:rounded-t-lg last-of-type:rounded-b-lg"
+        class="hover:bg-light first-of-type:rounded-t-lg last-of-type:rounded-b-lg"
         :class="{'bg-accent hover:bg-accent': index == selectedIndex }"
         :id="`search-item-${index}`"
       >
