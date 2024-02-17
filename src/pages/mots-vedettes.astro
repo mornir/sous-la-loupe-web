@@ -1,0 +1,31 @@
+---
+import Layout from '../layouts/Layout.astro'
+import list from '../data/vedettes.json'
+const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('')
+---
+
+<Layout title="Mots-vedettes | sous la loupe">
+  <div class="p-8">
+    {
+      alphabet.map((letter) => (
+        <div>
+          <h2 class="text-5xl uppercase font-bold text-primary">{letter}</h2>
+          <ul class="mt-2 ">
+            {list
+              .filter(({ slug }) => slug.startsWith(letter))
+              .map((word) => (
+                <li>
+                  <a
+                    href={`/fiches/${word.slug}/`}
+                    class="text-accent hover:underline text-lg"
+                  >
+                    {word.vedette}
+                  </a>
+                </li>
+              ))}
+          </ul>
+        </div>
+      ))
+    }
+  </div>
+</Layout>
