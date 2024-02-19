@@ -280,11 +280,6 @@
     "slug": "umgang"
   },
   {
-    "id": 2324,
-    "vedette": "-1.ausgehen von",
-    "slug": "1ausgehen-von"
-  },
-  {
     "id": 58,
     "vedette": "Anlehnung (in ~ an)",
     "slug": "anlehnung-in-an"
@@ -10115,11 +10110,6 @@
     "slug": "kurzfristig"
   },
   {
-    "id": 2340,
-    "vedette": "-1.abschöpfen",
-    "slug": "1abschoepfen"
-  },
-  {
     "id": 137,
     "vedette": "beanspruchen",
     "slug": "beanspruchen"
@@ -10180,11 +10170,6 @@
     "slug": "aufschlussreich"
   },
   {
-    "id": 2293,
-    "vedette": "-1. En cours moe 101223",
-    "slug": "1-en-cours-moe-101223"
-  },
-  {
     "id": 451,
     "vedette": "konsequent",
     "slug": "konsequent"
@@ -10210,11 +10195,6 @@
     "slug": "kern"
   },
   {
-    "id": 2297,
-    "vedette": "-1.beziehungsweise",
-    "slug": "1beziehungsweise"
-  },
-  {
     "id": 727,
     "vedette": "Verhältnisse",
     "slug": "verhaeltnisse"
@@ -10233,11 +10213,6 @@
     "id": 2304,
     "vedette": "vielversprechend",
     "slug": "vielversprechend"
-  },
-  {
-    "id": 2308,
-    "vedette": "-1.anfallen",
-    "slug": "1anfallen"
   },
   {
     "id": 2347,
@@ -10465,11 +10440,6 @@
     "slug": "wirksamkeit"
   },
   {
-    "id": 2481,
-    "vedette": "-1.intensiv",
-    "slug": "1intensiv"
-  },
-  {
     "id": 2401,
     "vedette": "übergeordnet",
     "slug": "uebergeordnet"
@@ -10478,11 +10448,6 @@
     "id": 2475,
     "vedette": "implementieren",
     "slug": "implementieren"
-  },
-  {
-    "id": 2476,
-    "vedette": "-1.implementieren",
-    "slug": "1implementieren"
   },
   {
     "id": 2489,
@@ -10508,11 +10473,6 @@
     "id": 2513,
     "vedette": "Register",
     "slug": "register"
-  },
-  {
-    "id": 2514,
-    "vedette": "-1.Q-Leiter",
-    "slug": "1q-leiter"
   },
   {
     "id": 2518,
@@ -10623,11 +10583,6 @@
     "id": 10,
     "vedette": "Ablauf",
     "slug": "ablauf"
-  },
-  {
-    "id": 2564,
-    "vedette": "-1.regeln",
-    "slug": "1regeln"
   },
   {
     "id": 2553,
