@@ -54,7 +54,7 @@ import { Icon } from 'astro-icon/components'
     <template x-for="(result, index) in searchResults" :key="result.item.id">
       <li
         lang="de"
-        class="hover:bg-light first-of-type:rounded-t-lg last-of-type:rounded-b-lg"
+        class="hover:bg-light first-of-type:rounded-t-lg last-of-type:rounded-b-lg relative"
         :class="{'bg-accent hover:bg-accent': index == selectedIndex }"
         :id="`search-item-${index}`"
       >
@@ -62,6 +62,12 @@ import { Icon } from 'astro-icon/components'
           :href="'/fiches/' + result.item.slug"
           x-text="result.item.vedette"
           class="text-lg py-2 px-8 block"></a>
+
+        <Icon
+          name="icon-park-outline:enter-key"
+          class="text-4xl text-white pl-4 absolute pointer-events-none right-5 top-1 hidden xl:inline"
+          x-show="index == selectedIndex"
+        />
       </li>
     </template>
   </ul>

@@ -11,6 +11,9 @@ dependencies:
   '@astrojs/tailwind':
     specifier: ^5.1.0
     version: 5.1.0(astro@4.3.2)(tailwindcss@3.4.1)
+  '@iconify-json/icon-park-outline':
+    specifier: ^1.1.15
+    version: 1.1.15
   '@iconify-json/mdi':
     specifier: ^1.1.64
     version: 1.1.64
@@ -571,6 +574,12 @@ packages:
     requiresBuild: true
     dev: false
     optional: true
+
+  /@iconify-json/icon-park-outline@1.1.15:
+    resolution: {integrity: sha512-jQbk/ETARyYPjX6HolkdjSLJHsNCfSBfYUqcUQLXYK/1tfuVnQsUdWG2IM2a7VBpxJtrK7r4n1iwPOFaZ5T46g==}
+    dependencies:
+      '@iconify/types': 2.0.0
+    dev: false
 
   /@iconify-json/mdi@1.1.64:
     resolution: {integrity: sha512-zGeo5TjhNFAY6FmSDBLAzDO811t77r6v/mDi7CAL9w5eXqKez6bIjk8R9AL/RHIeq44ALP4Ozr4lMqFTkHr7ug==}
