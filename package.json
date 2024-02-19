@@ -13,6 +13,7 @@
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.0",
     "@astrojs/tailwind": "^5.1.0",
+    "@iconify-json/icon-park-outline": "^1.1.15",
     "@iconify-json/mdi": "^1.1.64",
     "@types/alpinejs": "^3.13.6",
     "alpinejs": "^3.13.5",
