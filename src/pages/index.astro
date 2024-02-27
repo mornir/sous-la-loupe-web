@@ -1,11 +1,15 @@
 ---
 import Layout from '../layouts/Layout.astro'
 import AlpineSearchBox from '@components/AlpineSearchBox.astro'
+import { Icon } from 'astro-icon/components'
 
 const pages = [
   { name: 'Liste des mots-vedettes', slug: '/mots-vedettes/' },
   { name: 'Télécharger les fiches', slug: '#' },
-  { name: "Correspondre aujourd'hui", slug: '#' },
+  {
+    name: "Correspondre aujourd'hui",
+    slug: 'https://correspondre.netlify.app/',
+  },
   { name: 'Contact', slug: '#' },
   { name: 'À propos', slug: '#' },
 ]
@@ -21,13 +25,29 @@ const pages = [
     <AlpineSearchBox />
   </div>
 
-  <nav class="flex flex-col items-center mt-20 gap-y-4">
-    {
-      pages.map((p) => (
-        <a href={p.slug} class="text-lg text-accent font-bold hover:underline">
-          {p.name}
-        </a>
-      ))
-    }
+  <nav>
+    <ul class="flex flex-col items-center mt-20 gap-y-4">
+      {
+        pages.map((p) => {
+          if (p.slug === '#') {
+            return <li class="text-lg font-bold text-gray-600">{p.name}</li>
+          } else {
+            return (
+              <li class="flex items-center gap-x-1">
+                <a
+                  href={p.slug}
+                  class="text-lg text-accent font-bold hover:underline"
+                >
+                  {p.name}
+                </a>
+                {p.slug.startsWith('http') && (
+                  <Icon name="mdi:external-link" class="text-accent" />
+                )}
+              </li>
+            )
+          }
+        })
+      }
+    </ul>
   </nav>
 </Layout>
