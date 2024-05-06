@@ -13,8 +13,12 @@ const { fiche } = Astro.props
 
 const { traductions, exemples, liens } = fiche
 
-// @ts-ignore
-const groups = Object.entries(Object.groupBy(traductions, ({ sens }) => sens))
+const groups = Object.entries(
+  // @ts-ignore
+  Object.groupBy(traductions, ({ groupe }) => groupe),
+)
+
+console.log(groups)
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>

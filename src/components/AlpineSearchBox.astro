@@ -128,7 +128,7 @@ import { Icon } from 'astro-icon/components'
       get searchResults() {
         if (!this.searchPattern) return []
         this.showBox = true
-        return fuse.search(this.searchPattern).slice(0, 7)
+        return fuse.search(this.searchPattern.trim()).slice(0, 7)
       },
     }))
   })
