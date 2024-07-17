@@ -1,0 +1,48 @@
+---
+import { Icon } from 'astro-icon/components'
+---
+
+<div class="mt-4 ml-1 fixed top-0 left-0 w-fit">
+  <div id="wordcloud"></div>
+</div>
+
+<script is:inline src="/d3/d3.js"></script>
+<script is:inline src="/d3/d3.layout.cloud.js"></script>
+<script is:inline src="/d3/d3.wordcloud.js"></script>
+<script is:inline src="/d3/example.words.js"></script>
+<script>
+  // @ts-nocheck
+  import list from '../../data/vedettes.json'
+
+  d3.wordcloud()
+    .size([document.body.clientWidth, 300])
+    .fill(
+      d3.scale.ordinal().range(['#884400', '#448800', '#888800', '#444400']),
+    )
+    .words(
+      list.slice(0, 200).map((word) => ({
+        text: word.vedette,
+        size: Math.random() * 100,
+        href: 'https://www.galaxus.ch/',
+      })),
+    )
+    .onwordclick(function (d, i) {
+      if (d.href) {
+        window.location = d.href
+      }
+    })
+    .start()
+
+  /*   d3.wordcloud()
+    .size([document.body.clientWidth, 300])
+    .fill(
+      d3.scale.ordinal().range(['#884400', '#448800', '#888800', '#444400']),
+    )
+    .words(words)
+    .onwordclick(function (d, i) {
+      if (d.href) {
+        window.location = d.href
+      }
+    })
+    .start() */
+</script>
