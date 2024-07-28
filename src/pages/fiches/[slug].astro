@@ -1,4 +1,5 @@
 ---
+import { Icon } from 'astro-icon/components'
 import Layout from '../../layouts/Layout.astro'
 import fiches from '../../data/fiches.json'
 import AlpineSearchBox from '@components/AlpineSearchBox.astro'
@@ -24,7 +25,7 @@ const groups = Object.entries(
     class="mt-8 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-6"
   >
     <a href="/">
-      <img src="/logo.webp" alt="Logo sous la loupe" class="w-32 sm:w-24" />
+      <Icon name="logo" class="text-6xl sm:text-5xl" />
     </a>
     <AlpineSearchBox />
   </div>
