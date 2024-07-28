@@ -7,10 +7,6 @@ import { Icon } from 'astro-icon/components'
 const pages = [
   { name: 'Liste des mots-vedettes', slug: '/mots-vedettes/' },
   { name: 'Télécharger les fiches', slug: '#' },
-  /*   {
-    name: "Correspondre aujourd'hui",
-    slug: 'https://correspondre.netlify.app/',
-  }, */
   { name: 'Contact', slug: '#' },
   { name: 'À propos', slug: '#' },
 ]
@@ -18,10 +14,8 @@ const pages = [
 
 <Layout title="Recherche | sous la loupe">
   <div class="mt-[10%] flex flex-col items-center">
-    <!--     <WordCloud /> -->
-
+    <WordCloud />
     <Icon name="logo" class="text-9xl bg-white p-2 z-10 mb-6" />
-
     <AlpineSearchBox />
   </div>
 
