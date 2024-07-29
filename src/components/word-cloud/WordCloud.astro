@@ -1,9 +1,19 @@
 ---
-import { Icon } from 'astro-icon/components'
-
 import cloud2 from './cloud.svg?raw'
 ---
 
 <div>
   <Fragment set:html={cloud2} />
 </div>
+
+<script>
+  /*   const cloud = document.querySelector('svg')
+
+  cloud.addEventListener('click', function (e) {
+    const vedette = e.target.textContent.trim()
+    console.log(vedette)
+    window.location.href = '/fiches/' + vedette
+  })
+
+  console.log(cloud) */
+</script>

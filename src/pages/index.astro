@@ -2,46 +2,19 @@
 import Layout from '../layouts/Layout.astro'
 import AlpineSearchBox from '@components/AlpineSearchBox.astro'
 import WordCloud from '@components/word-cloud/WordCloud.astro'
+import NavLinks from '@components/NavLinks.astro'
 import { Icon } from 'astro-icon/components'
-
-const pages = [
-  { name: 'Liste des mots-vedettes', slug: '/mots-vedettes/' },
-  { name: 'Télécharger les fiches', slug: '#' },
-  { name: 'Contact', slug: '#' },
-  { name: 'À propos', slug: '#' },
-]
 ---
 
 <Layout title="Recherche | sous la loupe">
-  <div class="mt-[10%] flex flex-col items-center">
+  <div>
     <WordCloud />
-    <Icon name="logo" class="text-9xl bg-white p-2 z-10 mb-6" />
-    <AlpineSearchBox />
   </div>
-
-  <nav>
-    <ul class="flex flex-col items-center mt-20 gap-y-4">
-      {
-        pages.map((p) => {
-          if (p.slug === '#') {
-            return <li class="text-lg font-bold text-gray-600">{p.name}</li>
-          } else {
-            return (
-              <li class="flex items-center gap-x-1">
-                <a
-                  href={p.slug}
-                  class="text-lg text-accent font-bold hover:underline"
-                >
-                  {p.name}
-                </a>
-                {p.slug.startsWith('http') && (
-                  <Icon name="mdi:external-link" class="text-accent" />
-                )}
-              </li>
-            )
-          }
-        })
-      }
-    </ul>
-  </nav>
+  <div
+    class="absolute backdrop-blur-sm bg-white/80 px-8 py-10 w-full lg:w-[39rem] rounded-lg top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 flex flex-col items-center"
+  >
+    <Icon name="logo" class="text-9xl z-10 mb-6" />
+    <AlpineSearchBox />
+    <NavLinks />
+  </div>
 </Layout>
