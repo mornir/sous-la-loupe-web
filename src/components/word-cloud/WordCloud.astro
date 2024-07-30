@@ -1,19 +1,17 @@
 ---
-import cloud2 from './cloud.svg?raw'
+import cloud from './cloud-slug-2.svg?raw'
 ---
 
 <div>
-  <Fragment set:html={cloud2} />
+  <Fragment set:html={cloud} />
 </div>
 
 <script>
-  /*   const cloud = document.querySelector('svg')
-
-  cloud.addEventListener('click', function (e) {
-    const vedette = e.target.textContent.trim()
-    console.log(vedette)
-    window.location.href = '/fiches/' + vedette
+  const cloud = document.querySelector('svg')
+  cloud.addEventListener('click', function (event) {
+    const { nodeName, id } = event.target as HTMLElement
+    if (nodeName === 'text' && id) {
+      window.location.href = '/fiches/' + id
+    }
   })
-
-  console.log(cloud) */
 </script>
