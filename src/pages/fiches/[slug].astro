@@ -15,8 +15,7 @@ const { fiche } = Astro.props
 const { traductions, exemples, liens } = fiche
 
 const groups = Object.entries(
-  // @ts-ignore
-  Object.groupBy(traductions, ({ groupe }) => groupe),
+  Object.groupBy(traductions, ({ groupe }) => groupe)
 )
 ---
 
