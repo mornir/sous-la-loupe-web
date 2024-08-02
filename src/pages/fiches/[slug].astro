@@ -17,6 +17,12 @@ const { traductions, exemples, liens } = fiche
 const groups = Object.entries(
   Object.groupBy(traductions, ({ groupe }) => groupe)
 )
+
+const shareData = {
+  title: `Comment traduire ${fiche.vedette}`,
+  text: ``,
+  url: 'https://developer.mozilla.org',
+}
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
@@ -32,10 +38,24 @@ const groups = Object.entries(
   <article
     class="mb-24 mt-12 lg:mt-20 border-primary border-4 p-5 sm:p-8 md:p-12 xl:p-20 rounded-lg max-w-screen-xl mx-auto"
   >
-    <header>
+    <header class="flex justify-between">
       <h1 lang="de" class="lg:text-3xl text-2xl font-bold">
         {fiche.vedette}
       </h1>
+      <div>
+        <button
+          x-data=`{title: 'Comment traduire ${fiche.vedette}'}`
+          class="mr-3"
+          @click="console.log({title})"
+        >
+          <span class="sr-only">Partager la fiche</span>
+          <Icon name="mdi:share-variant" class="text-4xl text-accent" /></button
+        >
+        <button>
+          <span class="sr-only">Imprimer la fiche</span>
+          <Icon name="mdi:printer" class="text-4xl text-accent" /></button
+        >
+      </div>
     </header>
 
     <!-- style="grid-template-rows: masonry" -->
@@ -113,3 +133,9 @@ const groups = Object.entries(
     </div>
   </article>
 </Layout>
+
+<script>
+  function webShare(e) {
+    console.log(shareData)
+  }
+</script>
