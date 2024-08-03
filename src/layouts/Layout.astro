@@ -41,7 +41,19 @@ const { title } = Astro.props
     font-family: 'Montserrat', sans-serif;
   }
 
+  /* AlpineJS */
   [x-cloak] {
     display: none !important;
+  }
+
+  /* Word Cloud Styling */
+  text {
+    font-family: serif;
+    cursor: pointer;
+    opacity: 0.5;
+    user-select: none;
+  }
+  text:hover {
+    opacity: 1;
   }
 </style>
