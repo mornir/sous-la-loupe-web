@@ -19,8 +19,8 @@ const groups = Object.entries(
 )
 
 const shareData = {
-  title: `Comment traduire ${fiche.vedette}`,
-  text: ``,
+  title: 'sous la loupe',
+  text: `Comment traduire ${fiche.vedette}`,
   url: 'https://developer.mozilla.org',
 }
 ---
@@ -43,11 +43,7 @@ const shareData = {
         {fiche.vedette}
       </h1>
       <div>
-        <button
-          x-data=`{title: 'Comment traduire ${fiche.vedette}'}`
-          class="mr-3"
-          @click="console.log({title})"
-        >
+        <button class="mr-3" id="share">
           <span class="sr-only">Partager la fiche</span>
           <Icon name="mdi:share-variant" class="text-4xl text-accent" /></button
         >
@@ -134,8 +130,18 @@ const shareData = {
   </article>
 </Layout>
 
-<script>
-  function webShare(e) {
-    console.log(shareData)
+<script is:inline define:vars={{ shareData }}>
+  const shareButton = document.querySelector('#share')
+
+  if (navigator.share) {
+    shareButton.addEventListener('click', async () => {
+      try {
+        await navigator.share(shareData)
+      } catch (err) {
+        console.error(err)
+      }
+    })
+  } else {
+    shareButton.style.display = 'none'
   }
 </script>
