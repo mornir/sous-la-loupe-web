@@ -4,6 +4,7 @@
       font-family: serif;
       cursor: pointer;
       opacity: 0.5;
+      user-select: none;
     }
     text:hover {
       opacity: 1;
