@@ -1,4 +1,4 @@
-<svg width="2000" height="2000">
+<svg class="h-screen w-screen" >
   <g transform="translate(1000,1000)">
     <text
       text-anchor="middle"
