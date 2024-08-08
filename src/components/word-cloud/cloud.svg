@@ -1,4 +1,4 @@
-<svg height="2000" width="2000" viewBox="100 50 1300 1300" >
+<svg height="2000" width="2000" viewBox="100 50 1300 1300" class="h-screen w-screen" id="small">
   <g transform="translate(1000,1000)">
     <text
       text-anchor="middle"
