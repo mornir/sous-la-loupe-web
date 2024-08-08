@@ -1,14 +1,28 @@
 ---
+import bigCloud from './bigger-cloud.svg?raw'
 import cloud from './cloud.svg?raw'
 ---
 
 <div>
-  <Fragment set:html={cloud} />
+  <div class="min-[2000px]:hidden">
+    <Fragment set:html={cloud} />
+  </div>
+  <div class="hidden min-[2000px]:block">
+    <Fragment set:html={bigCloud} />
+  </div>
 </div>
 
 <script>
-  const cloud = document.querySelector('svg')
-  cloud.addEventListener('click', function (event) {
+  const bigcloud = document.querySelector('#big')
+  bigcloud.addEventListener('click', function (event) {
+    const { nodeName, id } = event.target as HTMLElement
+    if (nodeName === 'text' && id) {
+      window.location.href = '/fiches/' + id
+    }
+  })
+
+  const smallcloud = document.querySelector('#small')
+  smallcloud.addEventListener('click', function (event) {
     const { nodeName, id } = event.target as HTMLElement
     if (nodeName === 'text' && id) {
       window.location.href = '/fiches/' + id
