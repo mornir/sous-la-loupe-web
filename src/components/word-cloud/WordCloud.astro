@@ -1,0 +1,23 @@
+---
+import cloud from './cloud.svg?raw'
+---
+
+<div>
+  <Fragment set:html={cloud} />
+</div>
+
+<script>
+  const cloud = document.querySelector('svg')
+  cloud.addEventListener('click', function (event) {
+    const { nodeName, id } = event.target as HTMLElement
+    if (nodeName === 'text' && id) {
+      window.location.href = '/fiches/' + id
+    }
+  })
+</script>
+
+<style>
+  body {
+    overflow: hidden;
+  }
+</style>

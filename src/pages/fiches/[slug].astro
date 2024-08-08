@@ -1,4 +1,5 @@
 ---
+import { Icon } from 'astro-icon/components'
 import Layout from '../../layouts/Layout.astro'
 import fiches from '../../data/fiches.json'
 import AlpineSearchBox from '@components/AlpineSearchBox.astro'
@@ -14,11 +15,14 @@ const { fiche } = Astro.props
 const { traductions, exemples, liens } = fiche
 
 const groups = Object.entries(
-  // @ts-ignore
-  Object.groupBy(traductions, ({ groupe }) => groupe),
+  Object.groupBy(traductions, ({ groupe }) => groupe)
 )
 
-console.log(groups)
+const shareData = {
+  title: 'sous la loupe',
+  text: `Comment traduire ${fiche.vedette}`,
+  url: 'https://developer.mozilla.org',
+}
 ---
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
@@ -26,7 +30,7 @@ console.log(groups)
     class="mt-8 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-6"
   >
     <a href="/">
-      <img src="/logo.webp" alt="Logo sous la loupe" class="w-32 sm:w-24" />
+      <Icon name="logo" class="text-6xl sm:text-5xl" />
     </a>
     <AlpineSearchBox />
   </div>
@@ -34,10 +38,26 @@ console.log(groups)
   <article
     class="mb-24 mt-12 lg:mt-20 border-primary border-4 p-5 sm:p-8 md:p-12 xl:p-20 rounded-lg max-w-screen-xl mx-auto"
   >
-    <header>
+    <header class="flex justify-between">
       <h1 lang="de" class="lg:text-3xl text-2xl font-bold">
         {fiche.vedette}
       </h1>
+      <div>
+        <button class="mr-3" id="share">
+          <span class="sr-only">Partager la fiche</span>
+          <Icon
+            name="mdi:share-variant"
+            class="text-3xl lg:text-4xl text-accent"
+          /></button
+        >
+        <button>
+          <span class="sr-only">Imprimer la fiche</span>
+          <Icon
+            name="mdi:printer"
+            class="text-3xl lg:text-4xl text-accent"
+          /></button
+        >
+      </div>
     </header>
 
     <!-- style="grid-template-rows: masonry" -->
@@ -115,3 +135,19 @@ console.log(groups)
     </div>
   </article>
 </Layout>
+
+<script is:inline define:vars={{ shareData }}>
+  const shareButton = document.querySelector('#share')
+
+  if (navigator.share) {
+    shareButton.addEventListener('click', async () => {
+      try {
+        await navigator.share(shareData)
+      } catch (err) {
+        console.error(err)
+      }
+    })
+  } else {
+    shareButton.style.display = 'none'
+  }
+</script>
