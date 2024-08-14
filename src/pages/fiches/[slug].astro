@@ -27,7 +27,7 @@ const shareData = {
 
 <Layout title={fiche.vedette + ' | sous la loupe'}>
   <div
-    class="mt-8 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-6"
+    class="mt-8 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-6 print:hidden"
   >
     <a href="/">
       <Icon name="logo" class="text-6xl sm:text-5xl" />
@@ -42,7 +42,7 @@ const shareData = {
       <h1 lang="de" class="lg:text-3xl text-2xl font-bold">
         {fiche.vedette}
       </h1>
-      <div>
+      <div class="print:hidden">
         <button class="mr-3" id="share">
           <span class="sr-only">Partager la fiche</span>
           <Icon
@@ -50,7 +50,7 @@ const shareData = {
             class="text-3xl lg:text-4xl text-accent"
           /></button
         >
-        <button>
+        <button x-data @click="window.print()">
           <span class="sr-only">Imprimer la fiche</span>
           <Icon
             name="mdi:printer"
@@ -62,25 +62,31 @@ const shareData = {
 
     <!-- style="grid-template-rows: masonry" -->
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start"
+      class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start print:block"
       x-data
       x-masonry
     >
       <section>
-        <h2 class="mt-8 lg:text-2xl text-xl">Traductions proposées</h2>
+        <h2 class="mt-8 lg:text-2xl text-xl print:hidden">
+          Traductions proposées
+        </h2>
 
         <div
-          class="grid lg:grid-cols-[auto_1fr] lg:items-baseline gap-y-4 lg:gap-y-8 gap-x-16 lg:mt-8 mt-4 bg-slate-50 py-2 px-4 rounded-md max-w-prose"
+          class="grid lg:grid-cols-[auto_1fr] lg:items-baseline gap-y-4 lg:gap-y-8 gap-x-16 lg:mt-8 mt-4 bg-slate-50 py-2 px-4 rounded-md max-w-prose print:columns-3xs print:block print:bg-white print:max-w-none print:px-0"
         >
           {
             groups.map(([group, translations]) => (
               <>
-                <h3 class="lg:text-sm text-xs align-baseline">{group}</h3>
+                <h3 class="lg:text-sm text-xs align-baseline print:break-after-avoid">
+                  {group}
+                </h3>
                 <ul>
                   {
                     // @ts-ignore
                     translations.map((t) => (
-                      <li class="lg:text-xl text-lg mb-2 ">{t.terme}</li>
+                      <li class="lg:text-xl text-lg mb-2 print:break-before-avoid print:break-inside-avoid-column">
+                        {t.terme}
+                      </li>
                     ))
                   }
                 </ul>
@@ -92,7 +98,7 @@ const shareData = {
 
       {
         exemples.length > 0 && (
-          <section>
+          <section class="print:hidden">
             <h2 class="mt-8 lg:text-2xl text-xl">Exemples</h2>
             <div class="mt-8 max-w-prose ">
               <ul>
@@ -114,7 +120,7 @@ const shareData = {
 
       {
         liens.length > 0 && (
-          <section>
+          <section class="print:hidden">
             <h2 class="mt-8 lg:text-2xl text-xl">Voir aussi</h2>
 
             <ul class="mt-6 flex flex-col gap-y-4">
