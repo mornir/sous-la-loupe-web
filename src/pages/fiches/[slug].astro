@@ -62,7 +62,7 @@ const shareData = {
 
     <!-- style="grid-template-rows: masonry" -->
     <div
-      class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start"
+      class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start print:block"
       x-data
       x-masonry
     >
@@ -72,17 +72,21 @@ const shareData = {
         </h2>
 
         <div
-          class="grid lg:grid-cols-[auto_1fr] lg:items-baseline gap-y-4 lg:gap-y-8 gap-x-16 lg:mt-8 mt-4 bg-slate-50 py-2 px-4 rounded-md max-w-prose print:columns-2 print:block print:bg-white"
+          class="grid lg:grid-cols-[auto_1fr] lg:items-baseline gap-y-4 lg:gap-y-8 gap-x-16 lg:mt-8 mt-4 bg-slate-50 py-2 px-4 rounded-md max-w-prose print:columns-3xs print:block print:bg-white print:max-w-none print:px-0"
         >
           {
             groups.map(([group, translations]) => (
               <>
-                <h3 class="lg:text-sm text-xs align-baseline">{group}</h3>
+                <h3 class="lg:text-sm text-xs align-baseline print:break-after-avoid">
+                  {group}
+                </h3>
                 <ul>
                   {
                     // @ts-ignore
                     translations.map((t) => (
-                      <li class="lg:text-xl text-lg mb-2 ">{t.terme}</li>
+                      <li class="lg:text-xl text-lg mb-2 print:break-before-avoid print:break-inside-avoid-column">
+                        {t.terme}
+                      </li>
                     ))
                   }
                 </ul>
