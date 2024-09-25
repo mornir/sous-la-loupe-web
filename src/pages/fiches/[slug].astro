@@ -15,7 +15,7 @@ const { fiche } = Astro.props
 const { traductions, exemples, liens } = fiche
 
 const groups = Object.entries(
-  Object.groupBy(traductions, ({ groupe }) => groupe)
+  Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`) // because groupBy don't keep orginal order, but order alphanumerically
 )
 
 const shareData = {
