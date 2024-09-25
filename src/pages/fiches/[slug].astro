@@ -18,9 +18,7 @@ const groups = Object.entries(
   Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`)
 )
 
-const showFieldsColumn = traductions.every(({ sens }) => sens !== '')
-
-console.log(showFieldsColumn)
+const hideFieldsColumn = traductions.every(({ sens }) => sens === '')
 
 const shareData = {
   title: 'sous la loupe',
@@ -81,7 +79,7 @@ const shareData = {
           {
             groups.map(([group, translations]) => (
               <>
-                {showFieldsColumn && (
+                {!hideFieldsColumn && (
                   <h3 class="lg:text-sm text-xs align-baseline print:break-after-avoid">
                     {group.split('_')[1]}
                   </h3>
