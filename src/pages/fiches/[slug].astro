@@ -15,8 +15,12 @@ const { fiche } = Astro.props
 const { traductions, exemples, liens } = fiche
 
 const groups = Object.entries(
-  Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`) // because groupBy don't keep orginal order, but order alphanumerically
+  Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`)
 )
+
+const showFieldsColumn = traductions.every(({ sens }) => sens !== '')
+
+console.log(showFieldsColumn)
 
 const shareData = {
   title: 'sous la loupe',
@@ -77,9 +81,11 @@ const shareData = {
           {
             groups.map(([group, translations]) => (
               <>
-                <h3 class="lg:text-sm text-xs align-baseline print:break-after-avoid">
-                  {group}
-                </h3>
+                {showFieldsColumn && (
+                  <h3 class="lg:text-sm text-xs align-baseline print:break-after-avoid">
+                    {group.split('_')[1]}
+                  </h3>
+                )}
                 <ul>
                   {
                     // @ts-ignore
