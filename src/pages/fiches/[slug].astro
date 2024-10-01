@@ -63,7 +63,10 @@ const shareData = {
       </div>
     </header>
 
-    <p class="italic text-sm">{fiche.notes}</p>
+    <p class="text-sm max-w-4xl">
+      <span class="font-bold">Remarque :</span>
+      <span set:html={fiche.notes} class="text-sm whitespace-pre-line" />
+    </p>
 
     <!-- style="grid-template-rows: masonry" -->
     <div
