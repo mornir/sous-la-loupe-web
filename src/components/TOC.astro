@@ -7,14 +7,14 @@ export type Props = {
 const { pageHeadings } = Astro.props
 ---
 
-<aside id="#toc">
-  <ul class="xl:fixed top-0">
+<aside id="toc">
+  <ul class="xl:fixed top-14 text-right">
     {
       pageHeadings.map((h) => {
         return (
           <li>
             {' '}
-            <a href={`#${h.slug}`} class="text-accent hover:underline">
+            <a href={`#${h.slug}`} class="text-accent hover:underline ">
               {h.text}
             </a>
           </li>
@@ -28,7 +28,7 @@ const { pageHeadings } = Astro.props
   const setCurrent: IntersectionObserverCallback = (entries) => {
     for (let entry of entries) {
       const { id } = entry.target
-      const tocHeadingEl = document.querySelector(`#toc a[href="#${id}"]`)
+      const tocHeadingEl = document.querySelector(`#toc a[href='#${id}']`)
       if (!tocHeadingEl) return
       if (entry.isIntersecting) {
         document

@@ -5,7 +5,7 @@ const { frontmatter, headings, url } = Astro.props
 ---
 
 <Layout title={frontmatter.title}>
-  <article class="relative">
+  <article>
     <TOC pageHeadings={headings} />
     <div class="prose lg:prose-xl mx-auto text-justify"><slot /></div>
   </article>
