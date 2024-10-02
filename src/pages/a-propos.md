@@ -1,9 +1,7 @@
 ---
-layout: ../layouts/Layout.astro
-title: 'Hello, World!'
+layout: ../layouts/Text.astro
+title: 'Historique'
 ---
-
-<div class="prose lg:prose-xl mx-auto text-justify">
 
 # Historique
 
@@ -154,9 +152,7 @@ Berne et Renens, le 30 mars 2011.
 
 ---
 
-## Historique du Fichier français de Berne devenu «&nbsp;sous la loupe&nbsp;» en 2016
-
-### Anne-Lise Greber-Borel
+**Historique du Fichier français de Berne devenu «&nbsp;sous la loupe&nbsp;» en 2016, par Anne-Lise Greber-Borel**
 
 Je reprends là où Jean-Pierre Monnerat a terminé son récit détaillé de l’évolution de l’association. C’est l’occasion de lui rendre hommage en soulignant à quel point il a contribué à l’épanouissement du Fichier français de Berne tout particulièrement lorsqu’il s’est agi d’organiser la manifestation du 50ᵉ anniversaire de l’association.
 
@@ -233,5 +229,3 @@ Quant à elles, les fiches font l’objet d’un toilettage complet afin que le 
 ### 2024
 
 L’assemblée générale approuve la dissolution de l’association pour la fin de l’année 2024.
-
-</div>

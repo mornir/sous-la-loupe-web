@@ -1,0 +1,50 @@
+---
+// https://fazzaamiarso.hashnode.dev/add-toc-with-scroll-spy-in-astro
+export type Props = {
+  pageHeadings: Array<{ depth: number; text: string; slug: string }>
+}
+
+const { pageHeadings } = Astro.props
+---
+
+<aside id="#toc">
+  <ul class="xl:fixed top-0">
+    {
+      pageHeadings.map((h) => {
+        return (
+          <li>
+            {' '}
+            <a href={`#${h.slug}`} class="text-accent hover:underline">
+              {h.text}
+            </a>
+          </li>
+        )
+      })
+    }
+  </ul>
+</aside>
+
+<script>
+  const setCurrent: IntersectionObserverCallback = (entries) => {
+    for (let entry of entries) {
+      const { id } = entry.target
+      const tocHeadingEl = document.querySelector(`#toc a[href="#${id}"]`)
+      if (!tocHeadingEl) return
+      if (entry.isIntersecting) {
+        document
+          .querySelectorAll('#toc a')
+          .forEach((e) => e.classList.remove('text-primary'))
+        tocHeadingEl.classList.add('text-primary')
+      }
+    }
+  }
+
+  const observerOption: IntersectionObserverInit = {
+    rootMargin: '0px 0px -66%',
+    threshold: 1,
+  }
+  const headingObserver = new IntersectionObserver(setCurrent, observerOption)
+  document
+    .querySelectorAll('article :is(h2,h3,h4)')
+    .forEach((heading) => headingObserver.observe(heading))
+</script>

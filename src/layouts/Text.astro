@@ -1,0 +1,12 @@
+---
+import Layout from '../layouts/Layout.astro'
+import TOC from '../components/TOC.astro'
+const { frontmatter, headings, url } = Astro.props
+---
+
+<Layout title={frontmatter.title}>
+  <article class="relative">
+    <TOC pageHeadings={headings} />
+    <div class="prose lg:prose-xl mx-auto text-justify"><slot /></div>
+  </article>
+</Layout>
