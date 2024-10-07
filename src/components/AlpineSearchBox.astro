@@ -71,13 +71,15 @@ import { Icon } from 'astro-icon/components'
       </li>
     </template>
   </ul>
-  <p
-    x-cloak
-    x-show="searchPattern && !searchResults.length"
-    class="text-lg mt-2 pl-2"
-  >
-    Aucun résultat pour <b x-text="searchPattern"></b>
-  </p>
+  <div class="mt-2 h-4">
+    <p
+      x-cloak
+      x-show="searchPattern && !searchResults.length"
+      class="text-lg pl-2"
+    >
+      Aucun résultat pour <b x-text="searchPattern"></b>
+    </p>
+  </div>
 </form>
 
 <script>

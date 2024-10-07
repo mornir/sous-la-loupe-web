@@ -1,31 +1,25 @@
 ---
-const pages = [
-  { name: 'Liste des mots-vedettes', slug: '/mots-vedettes/' },
-  { name: 'Télécharger les fiches', slug: '#' },
-  { name: 'Contact', slug: '#' },
-  { name: 'À propos', slug: '#' },
+export const pages = [
+  { name: 'Mots-vedettes', slug: '/mots-vedettes/' },
+  { name: 'Téléchargement', slug: '/telechargement/' },
+  { name: 'Contact', slug: '/contact/' },
+  { name: 'À propos', slug: '/a-propos/' },
 ]
 ---
 
 <nav>
-  <ul class="flex flex-col items-center mt-14 gap-y-4">
+  <ul class="flex flex-col items-center mt-8 gap-y-4">
     {
-      pages.map((p) => {
-        if (p.slug === '#') {
-          return <li class="text-lg font-bold text-gray-600">{p.name}</li>
-        } else {
-          return (
-            <li class="flex items-center gap-x-1">
-              <a
-                href={p.slug}
-                class="text-lg text-accent font-bold hover:underline"
-              >
-                {p.name}
-              </a>
-            </li>
-          )
-        }
-      })
+      pages.map((p) => (
+        <li>
+          <a
+            href={p.slug}
+            class="text-lg text-accent font-bold hover:underline"
+          >
+            {p.name}
+          </a>
+        </li>
+      ))
     }
   </ul>
 </nav>

@@ -215,11 +215,6 @@
     "slug": "anfall"
   },
   {
-    "id": 44,
-    "vedette": "anfallen",
-    "slug": "anfallen"
-  },
-  {
     "id": 45,
     "vedette": "Anforderung",
     "slug": "anforderung"
@@ -280,6 +275,11 @@
     "slug": "umgang"
   },
   {
+    "id": 1115,
+    "vedette": "ausgehen von",
+    "slug": "ausgehen-von"
+  },
+  {
     "id": 58,
     "vedette": "Anlehnung (in ~ an)",
     "slug": "anlehnung-in-an"
@@ -305,19 +305,9 @@
     "slug": "anrechnen"
   },
   {
-    "id": 1851,
-    "vedette": "Vermittlungsvorschlag",
-    "slug": "vermittlungsvorschlag"
-  },
-  {
     "id": 1852,
     "vedette": "Vermittlungsgebühr",
     "slug": "vermittlungsgebuehr"
-  },
-  {
-    "id": 1853,
-    "vedette": "Vermittlungsanstalt",
-    "slug": "vermittlungsanstalt"
   },
   {
     "id": 1854,
@@ -335,9 +325,14 @@
     "slug": "heiratsvermittlung"
   },
   {
-    "id": 1857,
-    "vedette": "Vermögenheit",
-    "slug": "vermoegenheit"
+    "id": 163,
+    "vedette": "beheben",
+    "slug": "beheben"
+  },
+  {
+    "id": 164,
+    "vedette": "Behelf",
+    "slug": "behelf"
   },
   {
     "id": 1858,
@@ -517,7 +512,7 @@
   {
     "id": 102,
     "vedette": "Augenmerk (sein ~ auf jmdn./etwas richten)",
-    "slug": "augenmerk-sein-auf-jmdnetwas-richten"
+    "slug": "augenmerk-sein-auf-jmdn-etwas-richten"
   },
   {
     "id": 103,
@@ -805,21 +800,6 @@
     "slug": "beharrung"
   },
   {
-    "id": 162,
-    "vedette": "behaupten (sich ~)",
-    "slug": "behaupten-sich"
-  },
-  {
-    "id": 163,
-    "vedette": "beheben",
-    "slug": "beheben"
-  },
-  {
-    "id": 164,
-    "vedette": "Behelf",
-    "slug": "behelf"
-  },
-  {
     "id": 165,
     "vedette": "behelfsmässig",
     "slug": "behelfsmaessig"
@@ -992,7 +972,7 @@
   {
     "id": 199,
     "vedette": "Betreffende(r)",
-    "slug": "betreffender"
+    "slug": "betreffende-r"
   },
   {
     "id": 2083,
@@ -1005,9 +985,9 @@
     "slug": "betreffnis"
   },
   {
-    "id": 2076,
-    "vedette": "nationalbewusst",
-    "slug": "nationalbewusst"
+    "id": 1473,
+    "vedette": "naturnah",
+    "slug": "naturnah"
   },
   {
     "id": 2398,
@@ -1093,11 +1073,6 @@
     "id": 2431,
     "vedette": "abgleichen",
     "slug": "abgleichen"
-  },
-  {
-    "id": 216,
-    "vedette": "beziehungsweise",
-    "slug": "beziehungsweise"
   },
   {
     "id": 217,
@@ -1275,11 +1250,6 @@
     "slug": "eignung"
   },
   {
-    "id": 2090,
-    "vedette": "Einbaubad",
-    "slug": "einbaubad"
-  },
-  {
     "id": 2089,
     "vedette": "Eignungsprüfung",
     "slug": "eignungspruefung"
@@ -1445,11 +1415,6 @@
     "slug": "entsprechen"
   },
   {
-    "id": 2354,
-    "vedette": "Beratung (exemples)",
-    "slug": "beratung-exemples"
-  },
-  {
     "id": 294,
     "vedette": "Entwicklung",
     "slug": "entwicklung"
@@ -1550,19 +1515,14 @@
     "slug": "erstarrung"
   },
   {
-    "id": 316,
-    "vedette": "erteilen",
-    "slug": "erteilen"
-  },
-  {
     "id": 317,
     "vedette": "Ertrag",
     "slug": "ertrag"
   },
   {
-    "id": 318,
-    "vedette": "eruieren",
-    "slug": "eruieren"
+    "id": 945,
+    "vedette": "nebenamtlich",
+    "slug": "nebenamtlich"
   },
   {
     "id": 319,
@@ -1740,9 +1700,9 @@
     "slug": "anlageintensiv"
   },
   {
-    "id": 2130,
-    "vedette": "personalintensiv",
-    "slug": "personalintensiv"
+    "id": 2395,
+    "vedette": "Personalplanung",
+    "slug": "personalplanung"
   },
   {
     "id": 2131,
@@ -2110,11 +2070,6 @@
     "slug": "instrumentarium"
   },
   {
-    "id": 428,
-    "vedette": "intensiv",
-    "slug": "intensiv"
-  },
-  {
     "id": 429,
     "vedette": "Interessent",
     "slug": "interessent"
@@ -2233,16 +2188,6 @@
     "id": 453,
     "vedette": "kontraproduktiv",
     "slug": "kontraproduktiv"
-  },
-  {
-    "id": 2035,
-    "vedette": "Koppelwald",
-    "slug": "koppelwald"
-  },
-  {
-    "id": 2032,
-    "vedette": "Koppelkurs",
-    "slug": "koppelkurs"
   },
   {
     "id": 457,
@@ -2485,9 +2430,9 @@
     "slug": "nachfrage"
   },
   {
-    "id": 512,
-    "vedette": "Nachtrag",
-    "slug": "nachtrag"
+    "id": 318,
+    "vedette": "eruieren",
+    "slug": "eruieren"
   },
   {
     "id": 752,
@@ -2501,8 +2446,8 @@
   },
   {
     "id": 2240,
-    "vedette": "fordern (tour passif)",
-    "slug": "fordern-tour-passif"
+    "vedette": "fordern",
+    "slug": "fordern"
   },
   {
     "id": 1023,
@@ -2520,39 +2465,24 @@
     "slug": "betreuer"
   },
   {
-    "id": 515,
-    "vedette": "Nachwuchs",
-    "slug": "nachwuchs"
-  },
-  {
-    "id": 516,
-    "vedette": "nahelegen",
-    "slug": "nahelegen"
-  },
-  {
     "id": 517,
     "vedette": "naheliegen",
     "slug": "naheliegen"
   },
   {
-    "id": 518,
-    "vedette": "nämlich",
-    "slug": "naemlich"
+    "id": 1459,
+    "vedette": "Nämlichkeitsnachweis",
+    "slug": "naemlichkeitsnachweis"
   },
   {
-    "id": 519,
-    "vedette": "neu",
-    "slug": "neu"
+    "id": 1015,
+    "vedette": "Neuauflage",
+    "slug": "neuauflage"
   },
   {
-    "id": 521,
-    "vedette": "nicht zuletzt",
-    "slug": "nicht-zuletzt"
-  },
-  {
-    "id": 522,
-    "vedette": "Notlage",
-    "slug": "notlage"
+    "id": 2112,
+    "vedette": "Nichtigkeitseinwand",
+    "slug": "nichtigkeitseinwand"
   },
   {
     "id": 523,
@@ -2560,19 +2490,9 @@
     "slug": "novelle"
   },
   {
-    "id": 524,
-    "vedette": "nüchtern",
-    "slug": "nuechtern"
-  },
-  {
     "id": 526,
     "vedette": "Obliegenheit",
     "slug": "obliegenheit"
-  },
-  {
-    "id": 527,
-    "vedette": "offen",
-    "slug": "offen"
   },
   {
     "id": 528,
@@ -2580,24 +2500,19 @@
     "slug": "ohne-weiteres"
   },
   {
-    "id": 529,
-    "vedette": "Optimierung",
-    "slug": "optimierung"
+    "id": 2209,
+    "vedette": "orientieren",
+    "slug": "orientieren"
   },
   {
-    "id": 531,
-    "vedette": "orientiert",
-    "slug": "orientiert"
+    "id": 1483,
+    "vedette": "Orientierungsmittel",
+    "slug": "orientierungsmittel"
   },
   {
-    "id": 532,
-    "vedette": "Park-and-ride-System",
-    "slug": "park-and-ride-system"
-  },
-  {
-    "id": 533,
-    "vedette": "Partnerschaft",
-    "slug": "partnerschaft"
+    "id": 1677,
+    "vedette": "Patient",
+    "slug": "patient"
   },
   {
     "id": 534,
@@ -2605,14 +2520,14 @@
     "slug": "pendeln"
   },
   {
-    "id": 535,
-    "vedette": "Pendler",
-    "slug": "pendler"
+    "id": 1332,
+    "vedette": "Personalbestand",
+    "slug": "personalbestand"
   },
   {
-    "id": 536,
-    "vedette": "Personalien",
-    "slug": "personalien"
+    "id": 2130,
+    "vedette": "personalintensiv",
+    "slug": "personalintensiv"
   },
   {
     "id": 537,
@@ -2623,11 +2538,6 @@
     "id": 538,
     "vedette": "Planer",
     "slug": "planer"
-  },
-  {
-    "id": 539,
-    "vedette": "Plausch",
-    "slug": "plausch"
   },
   {
     "id": 540,
@@ -2767,7 +2677,7 @@
   {
     "id": 567,
     "vedette": "Regel (in der ~) i.d.R / idR",
-    "slug": "regel-in-der-idr-idr"
+    "slug": "regel-in-der-i-d-r-idr"
   },
   {
     "id": 568,
@@ -2833,11 +2743,6 @@
     "id": 581,
     "vedette": "Rückkopplung",
     "slug": "rueckkopplung"
-  },
-  {
-    "id": 582,
-    "vedette": "rückwärtskrebsen",
-    "slug": "rueckwaertskrebsen"
   },
   {
     "id": 583,
@@ -2956,8 +2861,8 @@
   },
   {
     "id": 608,
-    "vedette": "selbständig",
-    "slug": "selbstaendig"
+    "vedette": "selbständig / selbstständig",
+    "slug": "selbstaendig-selbststaendig"
   },
   {
     "id": 609,
@@ -3030,9 +2935,14 @@
     "slug": "sistieren"
   },
   {
-    "id": 624,
-    "vedette": "Soll-Bestand",
-    "slug": "soll-bestand"
+    "id": 1435,
+    "vedette": "Nachführungsarbeiten",
+    "slug": "nachfuehrungsarbeiten"
+  },
+  {
+    "id": 316,
+    "vedette": "erteilen",
+    "slug": "erteilen"
   },
   {
     "id": 625,
@@ -3076,8 +2986,8 @@
   },
   {
     "id": 633,
-    "vedette": "Stabstelle",
-    "slug": "stabstelle"
+    "vedette": "Stabsstelle",
+    "slug": "stabsstelle"
   },
   {
     "id": 634,
@@ -3486,8 +3396,8 @@
   },
   {
     "id": 720,
-    "vedette": "Veredlung",
-    "slug": "veredlung"
+    "vedette": "Veredelung",
+    "slug": "veredelung"
   },
   {
     "id": 721,
@@ -3581,8 +3491,8 @@
   },
   {
     "id": 741,
-    "vedette": "verstehen (zu)",
-    "slug": "verstehen-zu"
+    "vedette": "verstehen (sich)",
+    "slug": "verstehen-sich"
   },
   {
     "id": 742,
@@ -3700,9 +3610,9 @@
     "slug": "vorprogrammiert"
   },
   {
-    "id": 1677,
-    "vedette": "Patient",
-    "slug": "patient"
+    "id": 1487,
+    "vedette": "Pendelhacke",
+    "slug": "pendelhacke"
   },
   {
     "id": 766,
@@ -3752,7 +3662,7 @@
   {
     "id": 779,
     "vedette": "Wechselbeziehung(en)",
-    "slug": "wechselbeziehungen"
+    "slug": "wechselbeziehung-en"
   },
   {
     "id": 780,
@@ -3778,11 +3688,6 @@
     "id": 784,
     "vedette": "Weiterausbau",
     "slug": "weiterausbau"
-  },
-  {
-    "id": 785,
-    "vedette": "weiteres (ohne ~)",
-    "slug": "weiteres-ohne"
   },
   {
     "id": 786,
@@ -4095,44 +4000,14 @@
     "slug": "vorgabe"
   },
   {
-    "id": 851,
-    "vedette": "Bagatellklage",
-    "slug": "bagatellklage"
-  },
-  {
-    "id": 853,
-    "vedette": "Bagatellschulden",
-    "slug": "bagatellschulden"
-  },
-  {
-    "id": 854,
-    "vedette": "Bagatellkommission",
-    "slug": "bagatellkommission"
-  },
-  {
     "id": 2218,
     "vedette": "Gewalteinwirkung",
     "slug": "gewalteinwirkung"
   },
   {
-    "id": 856,
-    "vedette": "Bagatellunfall",
-    "slug": "bagatellunfall"
-  },
-  {
     "id": 857,
     "vedette": "Bagatellschaden",
     "slug": "bagatellschaden"
-  },
-  {
-    "id": 858,
-    "vedette": "Bagatellvertrag",
-    "slug": "bagatellvertrag"
-  },
-  {
-    "id": 859,
-    "vedette": "Bedarfsartikel",
-    "slug": "bedarfsartikel"
   },
   {
     "id": 864,
@@ -4255,11 +4130,6 @@
     "slug": "abnehmerland"
   },
   {
-    "id": 888,
-    "vedette": "Besoldungsabrechnung",
-    "slug": "besoldungsabrechnung"
-  },
-  {
     "id": 890,
     "vedette": "Abschwungphase",
     "slug": "abschwungphase"
@@ -4350,9 +4220,9 @@
     "slug": "mehranfall"
   },
   {
-    "id": 912,
-    "vedette": "Parkanlage",
-    "slug": "parkanlage"
+    "id": 533,
+    "vedette": "Partnerschaft",
+    "slug": "partnerschaft"
   },
   {
     "id": 913,
@@ -4420,9 +4290,9 @@
     "slug": "abrechnungskonto"
   },
   {
-    "id": 928,
-    "vedette": "abschöpfen",
-    "slug": "abschoepfen"
+    "id": 2144,
+    "vedette": "nachhaltig",
+    "slug": "nachhaltig"
   },
   {
     "id": 929,
@@ -4510,9 +4380,9 @@
     "slug": "hauptamtlich"
   },
   {
-    "id": 945,
-    "vedette": "nebenamtlich",
-    "slug": "nebenamtlich"
+    "id": 1042,
+    "vedette": "Netzausfall",
+    "slug": "netzausfall"
   },
   {
     "id": 946,
@@ -4545,29 +4415,14 @@
     "slug": "bedarfstermin"
   },
   {
-    "id": 953,
-    "vedette": "Bedarfszug",
-    "slug": "bedarfszug"
-  },
-  {
     "id": 955,
     "vedette": "Bürobedarf",
     "slug": "buerobedarf"
   },
   {
-    "id": 956,
-    "vedette": "Bedarfslenkung",
-    "slug": "bedarfslenkung"
-  },
-  {
     "id": 958,
     "vedette": "Bedarfsträger",
     "slug": "bedarfstraeger"
-  },
-  {
-    "id": 959,
-    "vedette": "Bedienungsbühne",
-    "slug": "bedienungsbuehne"
   },
   {
     "id": 960,
@@ -4578,16 +4433,6 @@
     "id": 961,
     "vedette": "Bedienungsgeld",
     "slug": "bedienungsgeld"
-  },
-  {
-    "id": 962,
-    "vedette": "Bedienungstritt",
-    "slug": "bedienungstritt"
-  },
-  {
-    "id": 963,
-    "vedette": "Bedienungshebel",
-    "slug": "bedienungshebel"
   },
   {
     "id": 965,
@@ -4608,11 +4453,6 @@
     "id": 969,
     "vedette": "abklärungsbedürftig",
     "slug": "abklaerungsbeduerftig"
-  },
-  {
-    "id": 970,
-    "vedette": "empfangsbedürftig",
-    "slug": "empfangsbeduerftig"
   },
   {
     "id": 971,
@@ -4765,11 +4605,6 @@
     "slug": "aufblaehen-sich"
   },
   {
-    "id": 1001,
-    "vedette": "Aufbruchstimmung",
-    "slug": "aufbruchstimmung"
-  },
-  {
     "id": 1002,
     "vedette": "Aufgeschlossenheit",
     "slug": "aufgeschlossenheit"
@@ -4835,11 +4670,6 @@
     "slug": "auflageueberwachungsstelle"
   },
   {
-    "id": 1015,
-    "vedette": "Neuauflage",
-    "slug": "neuauflage"
-  },
-  {
     "id": 1016,
     "vedette": "Produktionsauflage",
     "slug": "produktionsauflage"
@@ -4857,7 +4687,7 @@
   {
     "id": 1019,
     "vedette": "Beauftragte(r)",
-    "slug": "beauftragter"
+    "slug": "beauftragte-r"
   },
   {
     "id": 1021,
@@ -4940,11 +4770,6 @@
     "slug": "erwerbsausfallentschaedigung"
   },
   {
-    "id": 1038,
-    "vedette": "Einnahmenausfall",
-    "slug": "einnahmenausfall"
-  },
-  {
     "id": 1039,
     "vedette": "Stimmausfall",
     "slug": "stimmausfall"
@@ -4960,9 +4785,9 @@
     "slug": "betriebsausfall"
   },
   {
-    "id": 1042,
-    "vedette": "Netzausfall",
-    "slug": "netzausfall"
+    "id": 519,
+    "vedette": "neu",
+    "slug": "neu"
   },
   {
     "id": 1043,
@@ -5030,11 +4855,6 @@
     "slug": "anlagekosten"
   },
   {
-    "id": 1057,
-    "vedette": "Erbanlage",
-    "slug": "erbanlage"
-  },
-  {
     "id": 1058,
     "vedette": "Anlaufbahn",
     "slug": "anlaufbahn"
@@ -5100,9 +4920,9 @@
     "slug": "richtigbefund"
   },
   {
-    "id": 1071,
-    "vedette": "Ortsbefund",
-    "slug": "ortsbefund"
+    "id": 1197,
+    "vedette": "Pachtgesellschaft",
+    "slug": "pachtgesellschaft"
   },
   {
     "id": 1072,
@@ -5130,19 +4950,14 @@
     "slug": "begrifflich"
   },
   {
-    "id": 1077,
-    "vedette": "Begriffsbestimmung",
-    "slug": "begriffsbestimmung"
-  },
-  {
     "id": 1079,
     "vedette": "Begriffslehre",
     "slug": "begriffslehre"
   },
   {
-    "id": 1080,
-    "vedette": "begriffsstutzig",
-    "slug": "begriffsstutzig"
+    "id": 2039,
+    "vedette": "nachträglich",
+    "slug": "nachtraeglich"
   },
   {
     "id": 1081,
@@ -5195,19 +5010,14 @@
     "slug": "beharrungszustand"
   },
   {
-    "id": 1096,
-    "vedette": "Schreibbehelf",
-    "slug": "schreibbehelf"
-  },
-  {
     "id": 1099,
     "vedette": "Rechtsbehelf",
     "slug": "rechtsbehelf"
   },
   {
-    "id": 1100,
-    "vedette": "Notbehelf",
-    "slug": "notbehelf"
+    "id": 522,
+    "vedette": "Notlage",
+    "slug": "notlage"
   },
   {
     "id": 1101,
@@ -5255,11 +5065,6 @@
     "slug": "bekenntnisfreiheit"
   },
   {
-    "id": 1110,
-    "vedette": "Bekenntnisschrift",
-    "slug": "bekenntnisschrift"
-  },
-  {
     "id": 1111,
     "vedette": "Bekenntnisschule",
     "slug": "bekenntnisschule"
@@ -5273,11 +5078,6 @@
     "id": 1114,
     "vedette": "ausgehen (auf etwas ~)",
     "slug": "ausgehen-auf-etwas"
-  },
-  {
-    "id": 1115,
-    "vedette": "ausgehen von",
-    "slug": "ausgehen-von"
   },
   {
     "id": 1155,
@@ -5323,6 +5123,11 @@
     "id": 1126,
     "vedette": "Steuergefälle",
     "slug": "steuergefaelle"
+  },
+  {
+    "id": 912,
+    "vedette": "Parkanlage",
+    "slug": "parkanlage"
   },
   {
     "id": 1128,
@@ -5600,9 +5405,9 @@
     "slug": "handelsgesellschaft"
   },
   {
-    "id": 1197,
-    "vedette": "Pachtgesellschaft",
-    "slug": "pachtgesellschaft"
+    "id": 532,
+    "vedette": "Park-and-ride-System",
+    "slug": "park-and-ride-system"
   },
   {
     "id": 1201,
@@ -5643,11 +5448,6 @@
     "id": 1207,
     "vedette": "gewährbar",
     "slug": "gewaehrbar"
-  },
-  {
-    "id": 1209,
-    "vedette": "Mängelgewähr",
-    "slug": "maengelgewaehr"
   },
   {
     "id": 1211,
@@ -5715,11 +5515,6 @@
     "slug": "handlungsbedarf"
   },
   {
-    "id": 1227,
-    "vedette": "Härteparagraph",
-    "slug": "haerteparagraph"
-  },
-  {
     "id": 1228,
     "vedette": "Härtefall",
     "slug": "haertefall"
@@ -5753,11 +5548,6 @@
     "id": 1234,
     "vedette": "Tiefbau",
     "slug": "tiefbau"
-  },
-  {
-    "id": 1235,
-    "vedette": "Tiefbauingenieur",
-    "slug": "tiefbauingenieur"
   },
   {
     "id": 1236,
@@ -5805,11 +5595,6 @@
     "slug": "schulhoheit"
   },
   {
-    "id": 1247,
-    "vedette": "Haushydrant",
-    "slug": "haushydrant"
-  },
-  {
     "id": 1248,
     "vedette": "Laufbrunnenhydrant",
     "slug": "laufbrunnenhydrant"
@@ -5840,9 +5625,9 @@
     "slug": "einsichtnahme"
   },
   {
-    "id": 1254,
-    "vedette": "einsichtslos",
-    "slug": "einsichtslos"
+    "id": 516,
+    "vedette": "nahelegen",
+    "slug": "nahelegen"
   },
   {
     "id": 1255,
@@ -5865,19 +5650,9 @@
     "slug": "belastungsanzeige"
   },
   {
-    "id": 1261,
-    "vedette": "Belastungsfaktor",
-    "slug": "belastungsfaktor"
-  },
-  {
     "id": 1263,
     "vedette": "Belastungsprobe",
     "slug": "belastungsprobe"
-  },
-  {
-    "id": 1264,
-    "vedette": "Belastungsverbot",
-    "slug": "belastungsverbot"
   },
   {
     "id": 1265,
@@ -5930,11 +5705,6 @@
     "slug": "buchbeleg"
   },
   {
-    "id": 1275,
-    "vedette": "Buchungsbeleg",
-    "slug": "buchungsbeleg"
-  },
-  {
     "id": 1276,
     "vedette": "Kassenbeleg",
     "slug": "kassenbeleg"
@@ -5978,11 +5748,6 @@
     "id": 1285,
     "vedette": "Beratungswesen",
     "slug": "beratungswesen"
-  },
-  {
-    "id": 1286,
-    "vedette": "Beratungsstimme",
-    "slug": "beratungsstimme"
   },
   {
     "id": 1287,
@@ -6090,19 +5855,9 @@
     "slug": "berufungsklaeger"
   },
   {
-    "id": 1312,
-    "vedette": "Berufungsrecht",
-    "slug": "berufungsrecht"
-  },
-  {
     "id": 1313,
     "vedette": "Berufungsbeklagte(r)",
-    "slug": "berufungsbeklagter"
-  },
-  {
-    "id": 1314,
-    "vedette": "Zwischenberufung",
-    "slug": "zwischenberufung"
+    "slug": "berufungsbeklagte-r"
   },
   {
     "id": 1315,
@@ -6150,11 +5905,6 @@
     "slug": "beschlussfaehigkeit"
   },
   {
-    "id": 1325,
-    "vedette": "Beschlussunfähigkeit",
-    "slug": "beschlussunfaehigkeit"
-  },
-  {
     "id": 1326,
     "vedette": "Beschlussprotokoll",
     "slug": "beschlussprotokoll"
@@ -6180,9 +5930,9 @@
     "slug": "fuehrungsstufe"
   },
   {
-    "id": 1332,
-    "vedette": "Personalbestand",
-    "slug": "personalbestand"
+    "id": 536,
+    "vedette": "Personalien",
+    "slug": "personalien"
   },
   {
     "id": 1333,
@@ -6195,11 +5945,6 @@
     "slug": "kassabestand"
   },
   {
-    "id": 1335,
-    "vedette": "Bautenbestand",
-    "slug": "bautenbestand"
-  },
-  {
     "id": 1336,
     "vedette": "wärmebeständig",
     "slug": "waermebestaendig"
@@ -6208,11 +5953,6 @@
     "id": 1337,
     "vedette": "Mitbeteiligten",
     "slug": "mitbeteiligten"
-  },
-  {
-    "id": 1338,
-    "vedette": "Wechselbeteiligter",
-    "slug": "wechselbeteiligter"
   },
   {
     "id": 1339,
@@ -6280,11 +6020,6 @@
     "slug": "bewaehrungszeit"
   },
   {
-    "id": 1353,
-    "vedette": "Bewährungsaufstieg",
-    "slug": "bewaehrungsaufstieg"
-  },
-  {
     "id": 1355,
     "vedette": "Devisenbewirtschaftung",
     "slug": "devisenbewirtschaftung"
@@ -6350,24 +6085,19 @@
     "slug": "gehaltsbezueger"
   },
   {
-    "id": 1369,
-    "vedette": "Mehrfachbezüger",
-    "slug": "mehrfachbezueger"
-  },
-  {
     "id": 1370,
     "vedette": "Pensionsbezüger",
     "slug": "pensionsbezueger"
   },
   {
     "id": 1371,
-    "vedette": "Rentensbezüger",
-    "slug": "rentensbezueger"
+    "vedette": "Rentenbezüger",
+    "slug": "rentenbezueger"
   },
   {
     "id": 1372,
     "vedette": "Dahinfallen",
-    "slug": "dahinfallen"
+    "slug": "dahinfallen-2"
   },
   {
     "id": 1373,
@@ -6400,24 +6130,14 @@
     "slug": "dispositionsfaehig"
   },
   {
-    "id": 1384,
-    "vedette": "Dispositionszentrale",
-    "slug": "dispositionszentrale"
-  },
-  {
-    "id": 1385,
-    "vedette": "Durchweg",
-    "slug": "durchweg"
+    "id": 2577,
+    "vedette": "drücken",
+    "slug": "druecken"
   },
   {
     "id": 1386,
     "vedette": "Machbarkeitsstudie",
     "slug": "machbarkeitsstudie"
-  },
-  {
-    "id": 1387,
-    "vedette": "Mammuttanker",
-    "slug": "mammuttanker"
   },
   {
     "id": 1388,
@@ -6460,11 +6180,6 @@
     "slug": "arbeitsmangel"
   },
   {
-    "id": 1396,
-    "vedette": "Materialwaren",
-    "slug": "materialwaren"
-  },
-  {
     "id": 1397,
     "vedette": "Beweismaterial",
     "slug": "beweismaterial"
@@ -6488,11 +6203,6 @@
     "id": 1402,
     "vedette": "Beratungsrecht",
     "slug": "beratungsrecht"
-  },
-  {
-    "id": 1403,
-    "vedette": "Vorschlagsrecht",
-    "slug": "vorschlagsrecht"
   },
   {
     "id": 1404,
@@ -6595,11 +6305,6 @@
     "slug": "marktorientiert"
   },
   {
-    "id": 1426,
-    "vedette": "erfolgsorientiert",
-    "slug": "erfolgsorientiert"
-  },
-  {
     "id": 1427,
     "vedette": "linksorientiert",
     "slug": "linksorientiert"
@@ -6630,14 +6335,9 @@
     "slug": "verarbeitungsspanne"
   },
   {
-    "id": 1434,
-    "vedette": "nachführen",
-    "slug": "nachfuehren"
-  },
-  {
-    "id": 1435,
-    "vedette": "Nachführungsarbeiten",
-    "slug": "nachfuehrungsarbeiten"
+    "id": 624,
+    "vedette": "Soll-Bestand",
+    "slug": "soll-bestand"
   },
   {
     "id": 1436,
@@ -6645,19 +6345,9 @@
     "slug": "nachfuehrungsgeometer"
   },
   {
-    "id": 1437,
-    "vedette": "Nachtragsabkommen",
-    "slug": "nachtragsabkommen"
-  },
-  {
-    "id": 1438,
-    "vedette": "Nachtragsbestimmung",
-    "slug": "nachtragsbestimmung"
-  },
-  {
-    "id": 1439,
-    "vedette": "Nachtragskredit",
-    "slug": "nachtragskredit"
+    "id": 1434,
+    "vedette": "nachführen",
+    "slug": "nachfuehren"
   },
   {
     "id": 1440,
@@ -6700,11 +6390,6 @@
     "slug": "arbeitsunfaehigkeitnachweis"
   },
   {
-    "id": 1451,
-    "vedette": "Bedürftigkeitsnachweis",
-    "slug": "beduerftigkeitsnachweis"
-  },
-  {
     "id": 1452,
     "vedette": "Befähigungsnachweis",
     "slug": "befaehigungsnachweis"
@@ -6730,19 +6415,14 @@
     "slug": "buchnachweis"
   },
   {
-    "id": 1457,
-    "vedette": "Eigentumsnachweis",
-    "slug": "eigentumsnachweis"
-  },
-  {
     "id": 1458,
     "vedette": "Erbnachweis",
     "slug": "erbnachweis"
   },
   {
-    "id": 1459,
-    "vedette": "Nämlichkeitsnachweis",
-    "slug": "naemlichkeitsnachweis"
+    "id": 2076,
+    "vedette": "nationalbewusst",
+    "slug": "nationalbewusst"
   },
   {
     "id": 1460,
@@ -6770,14 +6450,14 @@
     "slug": "lehrstellennachweis"
   },
   {
-    "id": 1465,
-    "vedette": "Nachwuchspolitik",
-    "slug": "nachwuchspolitik"
-  },
-  {
     "id": 1466,
     "vedette": "Nachwuchsprobleme",
     "slug": "nachwuchsprobleme"
+  },
+  {
+    "id": 1468,
+    "vedette": "nah",
+    "slug": "nah"
   },
   {
     "id": 1467,
@@ -6785,9 +6465,9 @@
     "slug": "nachwuchsfoerderung"
   },
   {
-    "id": 1468,
-    "vedette": "nah",
-    "slug": "nah"
+    "id": 1476,
+    "vedette": "naheliegend",
+    "slug": "naheliegend"
   },
   {
     "id": 1470,
@@ -6800,29 +6480,19 @@
     "slug": "mafianah"
   },
   {
-    "id": 1473,
-    "vedette": "naturnah",
-    "slug": "naturnah"
-  },
-  {
-    "id": 1474,
-    "vedette": "verbrauchernah",
-    "slug": "verbrauchernah"
-  },
-  {
     "id": 1475,
     "vedette": "marktnah",
     "slug": "marktnah"
   },
   {
-    "id": 1476,
-    "vedette": "naheliegend",
-    "slug": "naheliegend"
+    "id": 1979,
+    "vedette": "Namenskunde",
+    "slug": "namenskunde"
   },
   {
-    "id": 1478,
-    "vedette": "neutral",
-    "slug": "neutral"
+    "id": 521,
+    "vedette": "nicht zuletzt",
+    "slug": "nicht-zuletzt"
   },
   {
     "id": 1479,
@@ -6830,19 +6500,14 @@
     "slug": "kostenneutral"
   },
   {
-    "id": 1480,
-    "vedette": "wettbewerbsneutral",
-    "slug": "wettbewerbsneutral"
-  },
-  {
     "id": 1482,
     "vedette": "praxisorientiert",
     "slug": "praxisorientiert"
   },
   {
-    "id": 1483,
-    "vedette": "Orientierungsmittel",
-    "slug": "orientierungsmittel"
+    "id": 1071,
+    "vedette": "Ortsbefund",
+    "slug": "ortsbefund"
   },
   {
     "id": 1484,
@@ -6850,9 +6515,9 @@
     "slug": "pendelwanderung"
   },
   {
-    "id": 1485,
-    "vedette": "Pendelverkehr",
-    "slug": "pendelverkehr"
+    "id": 535,
+    "vedette": "Pendler",
+    "slug": "pendler"
   },
   {
     "id": 1486,
@@ -6860,9 +6525,9 @@
     "slug": "pendelpflug"
   },
   {
-    "id": 1487,
-    "vedette": "Pendelhacke",
-    "slug": "pendelhacke"
+    "id": 1485,
+    "vedette": "Pendelverkehr",
+    "slug": "pendelverkehr"
   },
   {
     "id": 1488,
@@ -6935,11 +6600,6 @@
     "slug": "heimpflege"
   },
   {
-    "id": 1505,
-    "vedette": "Hauspflegerin",
-    "slug": "hauspflegerin"
-  },
-  {
     "id": 1506,
     "vedette": "Imagepflege",
     "slug": "imagepflege"
@@ -6958,11 +6618,6 @@
     "id": 1509,
     "vedette": "Körperpflege",
     "slug": "koerperpflege"
-  },
-  {
-    "id": 1510,
-    "vedette": "Spitex-Pflege",
-    "slug": "spitex-pflege"
   },
   {
     "id": 1511,
@@ -6990,14 +6645,9 @@
     "slug": "denkmalpflege"
   },
   {
-    "id": 1516,
-    "vedette": "pflegerisch",
-    "slug": "pflegerisch"
-  },
-  {
-    "id": 1517,
-    "vedette": "Pflegevertrag",
-    "slug": "pflegevertrag"
+    "id": 539,
+    "vedette": "Plausch",
+    "slug": "plausch"
   },
   {
     "id": 1518,
@@ -7008,11 +6658,6 @@
     "id": 1519,
     "vedette": "Stadtplaner",
     "slug": "stadtplaner"
-  },
-  {
-    "id": 1520,
-    "vedette": "Städteplaner",
-    "slug": "staedteplaner"
   },
   {
     "id": 1521,
@@ -7026,8 +6671,8 @@
   },
   {
     "id": 1523,
-    "vedette": "Umweltplaner",
-    "slug": "umweltplaner"
+    "vedette": "Umweltplanung",
+    "slug": "umweltplanung"
   },
   {
     "id": 1524,
@@ -7115,36 +6760,6 @@
     "slug": "praxisaenderung"
   },
   {
-    "id": 1542,
-    "vedette": "Primärliteratur",
-    "slug": "primaerliteratur"
-  },
-  {
-    "id": 1543,
-    "vedette": "Primärstrahlung",
-    "slug": "primaerstrahlung"
-  },
-  {
-    "id": 1544,
-    "vedette": "Primärstrom",
-    "slug": "primaerstrom"
-  },
-  {
-    "id": 1545,
-    "vedette": "Primärteilchen",
-    "slug": "primaerteilchen"
-  },
-  {
-    "id": 1546,
-    "vedette": "Primärvorgang",
-    "slug": "primaervorgang"
-  },
-  {
-    "id": 1547,
-    "vedette": "Primärenergie",
-    "slug": "primaerenergie"
-  },
-  {
     "id": 1548,
     "vedette": "Quotenaktie",
     "slug": "quotenaktie"
@@ -7215,46 +6830,6 @@
     "slug": "ressortminister"
   },
   {
-    "id": 1564,
-    "vedette": "Rubrizierungen",
-    "slug": "rubrizierungen"
-  },
-  {
-    "id": 1565,
-    "vedette": "Rubrizierungsdaten",
-    "slug": "rubrizierungsdaten"
-  },
-  {
-    "id": 1566,
-    "vedette": "Rubrizierungsfeld",
-    "slug": "rubrizierungsfeld"
-  },
-  {
-    "id": 1567,
-    "vedette": "Rubrizierungskorrektur",
-    "slug": "rubrizierungskorrektur"
-  },
-  {
-    "id": 1568,
-    "vedette": "Rubrizierungsstempel",
-    "slug": "rubrizierungsstempel"
-  },
-  {
-    "id": 1569,
-    "vedette": "Rubrizierungsverzeichnis",
-    "slug": "rubrizierungsverzeichnis"
-  },
-  {
-    "id": 1570,
-    "vedette": "Rubrizierungsweisung",
-    "slug": "rubrizierungsweisung"
-  },
-  {
-    "id": 1571,
-    "vedette": "Rubrizierungszettel",
-    "slug": "rubrizierungszettel"
-  },
-  {
     "id": 1903,
     "vedette": "Vernetzung",
     "slug": "vernetzung"
@@ -7275,11 +6850,6 @@
     "slug": "rueckfrageapparat"
   },
   {
-    "id": 1576,
-    "vedette": "Völkerbundssatzung",
-    "slug": "voelkerbundssatzung"
-  },
-  {
     "id": 1577,
     "vedette": "Tagsatzung",
     "slug": "tagsatzung"
@@ -7298,11 +6868,6 @@
     "id": 1580,
     "vedette": "Selbsthilfegruppe",
     "slug": "selbsthilfegruppe"
-  },
-  {
-    "id": 1582,
-    "vedette": "Selbsthilfeverkauf",
-    "slug": "selbsthilfeverkauf"
   },
   {
     "id": 1583,
@@ -7362,7 +6927,7 @@
   {
     "id": 1605,
     "vedette": "Fachmann/Fachfrau",
-    "slug": "fachmannfachfrau"
+    "slug": "fachmann-fachfrau"
   },
   {
     "id": 1606,
@@ -7515,14 +7080,9 @@
     "slug": "vorwegnahme"
   },
   {
-    "id": 1640,
-    "vedette": "Veredlungsprodukt",
-    "slug": "veredlungsprodukt"
-  },
-  {
     "id": 1641,
-    "vedette": "Veredlungsindustrie",
-    "slug": "veredlungsindustrie"
+    "vedette": "Veredelungsindustrie",
+    "slug": "veredelungsindustrie"
   },
   {
     "id": 1642,
@@ -7795,11 +7355,6 @@
     "slug": "uebersichtig"
   },
   {
-    "id": 1713,
-    "vedette": "Übersichtlichkeit",
-    "slug": "uebersichtlichkeit"
-  },
-  {
     "id": 1710,
     "vedette": "übersichtlich",
     "slug": "uebersichtlich"
@@ -7835,19 +7390,14 @@
     "slug": "klausurarbeit"
   },
   {
-    "id": 1721,
-    "vedette": "Synodalklausur",
-    "slug": "synodalklausur"
-  },
-  {
     "id": 1722,
     "vedette": "Koppel (das)",
     "slug": "koppel-das"
   },
   {
-    "id": 2039,
-    "vedette": "nachträglich",
-    "slug": "nachtraeglich"
+    "id": 1439,
+    "vedette": "Nachtragskredit",
+    "slug": "nachtragskredit"
   },
   {
     "id": 2085,
@@ -7862,17 +7412,12 @@
   {
     "id": 1728,
     "vedette": "Kopp(e)lung",
-    "slug": "koppelung"
+    "slug": "kopp-e-lung"
   },
   {
     "id": 1731,
     "vedette": "Kopplungsbruch",
     "slug": "kopplungsbruch"
-  },
-  {
-    "id": 1730,
-    "vedette": "Kopplungsspule",
-    "slug": "kopplungsspule"
   },
   {
     "id": 1732,
@@ -7883,11 +7428,6 @@
     "id": 1733,
     "vedette": "jeweils",
     "slug": "jeweils"
-  },
-  {
-    "id": 1734,
-    "vedette": "jeweilig",
-    "slug": "jeweilig"
   },
   {
     "id": 1735,
@@ -7910,16 +7450,6 @@
     "slug": "umlageverfahren"
   },
   {
-    "id": 1738,
-    "vedette": "Umlageeinnehmer",
-    "slug": "umlageeinnehmer"
-  },
-  {
-    "id": 1739,
-    "vedette": "umlagepflichtig",
-    "slug": "umlagepflichtig"
-  },
-  {
     "id": 1740,
     "vedette": "Umschlagplatz",
     "slug": "umschlagplatz"
@@ -7933,11 +7463,6 @@
     "id": 1742,
     "vedette": "Umsatzkapital",
     "slug": "umsatzkapital"
-  },
-  {
-    "id": 1743,
-    "vedette": "Umsatzwelle",
-    "slug": "umsatzwelle"
   },
   {
     "id": 1744,
@@ -7958,11 +7483,6 @@
     "id": 1748,
     "vedette": "Unkostenübertragung",
     "slug": "unkostenuebertragung"
-  },
-  {
-    "id": 1749,
-    "vedette": "Schreibunterlage",
-    "slug": "schreibunterlage"
   },
   {
     "id": 1750,
@@ -8020,29 +7540,14 @@
     "slug": "wohlfahrtsamt"
   },
   {
-    "id": 1762,
-    "vedette": "Wohlfahrtsausschuss",
-    "slug": "wohlfahrtsausschuss"
-  },
-  {
     "id": 1763,
     "vedette": "Wohlfahrtseinrichtung",
     "slug": "wohlfahrtseinrichtung"
   },
   {
-    "id": 1764,
-    "vedette": "Wohlfahrtsfonds",
-    "slug": "wohlfahrtsfonds"
-  },
-  {
     "id": 1765,
     "vedette": "Wohlfahrtsstaat",
     "slug": "wohlfahrtsstaat"
-  },
-  {
-    "id": 1767,
-    "vedette": "zugestandermassen",
-    "slug": "zugestandermassen"
   },
   {
     "id": 1768,
@@ -8071,8 +7576,8 @@
   },
   {
     "id": 1774,
-    "vedette": "Stabdienste",
-    "slug": "stabdienste"
+    "vedette": "Stabsdienste",
+    "slug": "stabsdienste"
   },
   {
     "id": 1775,
@@ -8091,23 +7596,13 @@
   },
   {
     "id": 1779,
-    "vedette": "Starrkopf",
-    "slug": "starrkopf"
+    "vedette": "starrköpfig",
+    "slug": "starrkoepfig"
   },
   {
     "id": 1780,
     "vedette": "Starrkrampf",
     "slug": "starrkrampf"
-  },
-  {
-    "id": 1781,
-    "vedette": "Starrleinen",
-    "slug": "starrleinen"
-  },
-  {
-    "id": 1782,
-    "vedette": "Starrsucht",
-    "slug": "starrsucht"
   },
   {
     "id": 1783,
@@ -8120,54 +7615,14 @@
     "slug": "stellung-nehmen"
   },
   {
-    "id": 1785,
-    "vedette": "Stichprobeverfahren",
-    "slug": "stichprobeverfahren"
-  },
-  {
-    "id": 1786,
-    "vedette": "stichprobenweise",
-    "slug": "stichprobenweise"
-  },
-  {
-    "id": 1787,
-    "vedette": "Stichprobenpunkt",
-    "slug": "stichprobenpunkt"
-  },
-  {
-    "id": 1788,
-    "vedette": "Stichprobensatz",
-    "slug": "stichprobensatz"
-  },
-  {
-    "id": 1789,
-    "vedette": "Stichwortschloß",
-    "slug": "stichwortschloss"
+    "id": 2583,
+    "vedette": "Primärenergie",
+    "slug": "primaerenergie"
   },
   {
     "id": 1790,
     "vedette": "Konsumentenstimmung",
     "slug": "konsumentenstimmung"
-  },
-  {
-    "id": 1791,
-    "vedette": "Stimmungsindikator",
-    "slug": "stimmungsindikator"
-  },
-  {
-    "id": 1792,
-    "vedette": "Stimmungsumschwung",
-    "slug": "stimmungsumschwung"
-  },
-  {
-    "id": 1793,
-    "vedette": "Stimmungsbarometer",
-    "slug": "stimmungsbarometer"
-  },
-  {
-    "id": 1794,
-    "vedette": "Stimmungsmensch",
-    "slug": "stimmungsmensch"
   },
   {
     "id": 1795,
@@ -8217,27 +7672,12 @@
   {
     "id": 1806,
     "vedette": "schablon(is)ieren",
-    "slug": "schablonisieren"
+    "slug": "schablon-is-ieren"
   },
   {
-    "id": 1807,
-    "vedette": "Schattenkasse",
-    "slug": "schattenkasse"
-  },
-  {
-    "id": 1808,
-    "vedette": "Schattenkonto",
-    "slug": "schattenkonto"
-  },
-  {
-    "id": 1809,
-    "vedette": "Schonzeit",
-    "slug": "schonzeit"
-  },
-  {
-    "id": 1810,
-    "vedette": "Schongebiet",
-    "slug": "schongebiet"
+    "id": 2584,
+    "vedette": "Bestimmung",
+    "slug": "bestimmung"
   },
   {
     "id": 1811,
@@ -8280,24 +7720,9 @@
     "slug": "stromschwankung"
   },
   {
-    "id": 1819,
-    "vedette": "Währungsschwankungen",
-    "slug": "waehrungsschwankungen"
-  },
-  {
-    "id": 1820,
-    "vedette": "Schwergewichtsgut",
-    "slug": "schwergewichtsgut"
-  },
-  {
     "id": 1821,
     "vedette": "kalorienbewusst",
     "slug": "kalorienbewusst"
-  },
-  {
-    "id": 1822,
-    "vedette": "karrierebewusst",
-    "slug": "karrierebewusst"
   },
   {
     "id": 1826,
@@ -8380,9 +7805,24 @@
     "slug": "kinderfreundlich"
   },
   {
-    "id": 1901,
-    "vedette": "niederschwellig",
-    "slug": "niederschwellig"
+    "id": 2043,
+    "vedette": "Niederschwelligkeit",
+    "slug": "niederschwelligkeit"
+  },
+  {
+    "id": 524,
+    "vedette": "nüchtern",
+    "slug": "nuechtern"
+  },
+  {
+    "id": 527,
+    "vedette": "offen",
+    "slug": "offen"
+  },
+  {
+    "id": 529,
+    "vedette": "Optimierung",
+    "slug": "optimierung"
   },
   {
     "id": 1902,
@@ -8393,11 +7833,6 @@
     "id": 1847,
     "vedette": "Volkswirtschaft",
     "slug": "volkswirtschaft"
-  },
-  {
-    "id": 1848,
-    "vedette": "BWA",
-    "slug": "bwa"
   },
   {
     "id": 1843,
@@ -8490,9 +7925,9 @@
     "slug": "vernehmlasser"
   },
   {
-    "id": 1868,
-    "vedette": "Verwertungsklausel",
-    "slug": "verwertungsklausel"
+    "id": 162,
+    "vedette": "behaupten (sich ~)",
+    "slug": "behaupten-sich"
   },
   {
     "id": 1869,
@@ -8521,8 +7956,8 @@
   },
   {
     "id": 1876,
-    "vedette": "Veredlungsverfahren",
-    "slug": "veredlungsverfahren"
+    "vedette": "Veredelungsverfahren",
+    "slug": "veredelungsverfahren"
   },
   {
     "id": 1877,
@@ -8531,8 +7966,8 @@
   },
   {
     "id": 1875,
-    "vedette": "Veredlungsverkehr",
-    "slug": "veredlungsverkehr"
+    "vedette": "Veredelungsverkehr",
+    "slug": "veredelungsverkehr"
   },
   {
     "id": 1878,
@@ -8543,11 +7978,6 @@
     "id": 1879,
     "vedette": "Vorgabewert",
     "slug": "vorgabewert"
-  },
-  {
-    "id": 1880,
-    "vedette": "Vorprogramm",
-    "slug": "vorprogramm"
   },
   {
     "id": 1882,
@@ -8563,11 +7993,6 @@
     "id": 1884,
     "vedette": "Terminzahlung",
     "slug": "terminzahlung"
-  },
-  {
-    "id": 1885,
-    "vedette": "Terminwechsel",
-    "slug": "terminwechsel"
   },
   {
     "id": 1886,
@@ -8645,11 +8070,6 @@
     "slug": "volksnah"
   },
   {
-    "id": 1910,
-    "vedette": "zuletzt (nicht)",
-    "slug": "zuletzt-nicht"
-  },
-  {
     "id": 1912,
     "vedette": "Leistungslohn",
     "slug": "leistungslohn"
@@ -8683,11 +8103,6 @@
     "id": 1918,
     "vedette": "Fachdienstleiter",
     "slug": "fachdienstleiter"
-  },
-  {
-    "id": 1920,
-    "vedette": "Q-Leiter",
-    "slug": "q-leiter"
   },
   {
     "id": 1921,
@@ -8740,19 +8155,14 @@
     "slug": "kundendientswerkstatt"
   },
   {
-    "id": 1934,
-    "vedette": "Kundendienstbüro",
-    "slug": "kundendienstbuero"
-  },
-  {
     "id": 2038,
     "vedette": "Querschnitt",
     "slug": "querschnitt"
   },
   {
-    "id": 2144,
-    "vedette": "nachhaltig",
-    "slug": "nachhaltig"
+    "id": 2191,
+    "vedette": "Nachhaltigkeit",
+    "slug": "nachhaltigkeit"
   },
   {
     "id": 2443,
@@ -8777,22 +8187,12 @@
   {
     "id": 1938,
     "vedette": "Entgegenkommen",
-    "slug": "entgegenkommen"
-  },
-  {
-    "id": 1940,
-    "vedette": "ertragsfähig",
-    "slug": "ertragsfaehig"
+    "slug": "entgegenkommen-2"
   },
   {
     "id": 1941,
     "vedette": "Flugzeugträger",
     "slug": "flugzeugtraeger"
-  },
-  {
-    "id": 1942,
-    "vedette": "Schnittstelle (exemples)",
-    "slug": "schnittstelle-exemples"
   },
   {
     "id": 1943,
@@ -8950,24 +8350,14 @@
     "slug": "fachkunde"
   },
   {
-    "id": 1979,
-    "vedette": "Namenskunde",
-    "slug": "namenskunde"
+    "id": 518,
+    "vedette": "nämlich",
+    "slug": "naemlich"
   },
   {
     "id": 1980,
     "vedette": "Sachkunde",
     "slug": "sachkunde"
-  },
-  {
-    "id": 1981,
-    "vedette": "Sprechkunde",
-    "slug": "sprechkunde"
-  },
-  {
-    "id": 1982,
-    "vedette": "Stilkunde",
-    "slug": "stilkunde"
   },
   {
     "id": 1983,
@@ -8983,11 +8373,6 @@
     "id": 1985,
     "vedette": "Bodenkunde",
     "slug": "bodenkunde"
-  },
-  {
-    "id": 1986,
-    "vedette": "Erdkunde",
-    "slug": "erdkunde"
   },
   {
     "id": 1987,
@@ -9020,11 +8405,6 @@
     "slug": "sternkunde"
   },
   {
-    "id": 1993,
-    "vedette": "Tierkunde",
-    "slug": "tierkunde"
-  },
-  {
     "id": 1995,
     "vedette": "Vogelkunde",
     "slug": "vogelkunde"
@@ -9033,11 +8413,6 @@
     "id": 1996,
     "vedette": "Hüttenkunde",
     "slug": "huettenkunde"
-  },
-  {
-    "id": 1997,
-    "vedette": "Waffenkunde",
-    "slug": "waffenkunde"
   },
   {
     "id": 1998,
@@ -9115,9 +8490,9 @@
     "slug": "einsatzwagen"
   },
   {
-    "id": 2015,
-    "vedette": "Einsatzform",
-    "slug": "einsatzform"
+    "id": 514,
+    "vedette": "Nachweis",
+    "slug": "nachweis"
   },
   {
     "id": 1,
@@ -9170,24 +8545,14 @@
     "slug": "wertschoepfung"
   },
   {
-    "id": 2043,
-    "vedette": "Niederschwelligkeit",
-    "slug": "niederschwelligkeit"
+    "id": 1100,
+    "vedette": "Notbehelf",
+    "slug": "notbehelf"
   },
   {
     "id": 2042,
     "vedette": "Verhältnismässigkeit",
     "slug": "verhaeltnismaessigkeit"
-  },
-  {
-    "id": 2045,
-    "vedette": "Autobestand",
-    "slug": "autobestand"
-  },
-  {
-    "id": 2046,
-    "vedette": "Komputerbestand",
-    "slug": "komputerbestand"
   },
   {
     "id": 2047,
@@ -9198,11 +8563,6 @@
     "id": 2048,
     "vedette": "Gebäudebestand",
     "slug": "gebaeudebestand"
-  },
-  {
-    "id": 2073,
-    "vedette": "Beharrungsvermögen",
-    "slug": "beharrungsvermoegen"
   },
   {
     "id": 2049,
@@ -9280,11 +8640,6 @@
     "slug": "jahresbetreffnis"
   },
   {
-    "id": 2066,
-    "vedette": "Bewährungskontrolle",
-    "slug": "bewaehrungskontrolle"
-  },
-  {
     "id": 2067,
     "vedette": "Bewertungsblatt",
     "slug": "bewertungsblatt"
@@ -9335,16 +8690,6 @@
     "slug": "einbauvorrichtung"
   },
   {
-    "id": 2095,
-    "vedette": "Einbauwinker",
-    "slug": "einbauwinker"
-  },
-  {
-    "id": 2096,
-    "vedette": "Einfalldosis",
-    "slug": "einfalldosis"
-  },
-  {
     "id": 2097,
     "vedette": "Einfallstrasse",
     "slug": "einfallstrasse"
@@ -9360,19 +8705,14 @@
     "slug": "einfuehrungsbrief"
   },
   {
-    "id": 2100,
-    "vedette": "Einführungsbestimmungen",
-    "slug": "einfuehrungsbestimmungen"
-  },
-  {
     "id": 2101,
     "vedette": "Einführungsdraht",
     "slug": "einfuehrungsdraht"
   },
   {
-    "id": 2102,
-    "vedette": "Einführungsfeierlichkeiten",
-    "slug": "einfuehrungsfeierlichkeiten"
+    "id": 2572,
+    "vedette": "Einführungsgesetz",
+    "slug": "einfuehrungsgesetz"
   },
   {
     "id": 2104,
@@ -9410,29 +8750,14 @@
     "slug": "eingliederungsstaette"
   },
   {
-    "id": 2112,
-    "vedette": "Nichtigkeitseinwand",
-    "slug": "nichtigkeitseinwand"
-  },
-  {
-    "id": 2113,
-    "vedette": "Verteidigungseinwand",
-    "slug": "verteidigungseinwand"
+    "id": 1901,
+    "vedette": "niederschwellig",
+    "slug": "niederschwellig"
   },
   {
     "id": 2114,
     "vedette": "Verzögerungseinwand",
     "slug": "verzoegerungseinwand"
-  },
-  {
-    "id": 2115,
-    "vedette": "erlebnishungrig",
-    "slug": "erlebnishungrig"
-  },
-  {
-    "id": 2117,
-    "vedette": "Ermessensbereich",
-    "slug": "ermessensbereich"
   },
   {
     "id": 2118,
@@ -9450,9 +8775,9 @@
     "slug": "ertragsausfall"
   },
   {
-    "id": 2121,
-    "vedette": "Ertragszins",
-    "slug": "ertragszins"
+    "id": 2207,
+    "vedette": "Nachholbedarf",
+    "slug": "nachholbedarf"
   },
   {
     "id": 2122,
@@ -9463,11 +8788,6 @@
     "id": 2123,
     "vedette": "Ertragsgrenze",
     "slug": "ertragsgrenze"
-  },
-  {
-    "id": 2124,
-    "vedette": "Ertragskraft",
-    "slug": "ertragskraft"
   },
   {
     "id": 2125,
@@ -9488,11 +8808,6 @@
     "id": 2134,
     "vedette": "Durchführungsverordnung",
     "slug": "durchfuehrungsverordnung"
-  },
-  {
-    "id": 2135,
-    "vedette": "Durchführungsbestimmungen",
-    "slug": "durchfuehrungsbestimmungen"
   },
   {
     "id": 2136,
@@ -9560,11 +8875,6 @@
     "slug": "entwicklungsstufe"
   },
   {
-    "id": 2158,
-    "vedette": "Entwicklungsroman",
-    "slug": "entwicklungsroman"
-  },
-  {
     "id": 2159,
     "vedette": "Entwicklungsjahre",
     "slug": "entwicklungsjahre"
@@ -9573,11 +8883,6 @@
     "id": 2160,
     "vedette": "Entwicklungszeit",
     "slug": "entwicklungszeit"
-  },
-  {
-    "id": 2161,
-    "vedette": "Entwicklungsbad",
-    "slug": "entwicklungsbad"
   },
   {
     "id": 2162,
@@ -9603,26 +8908,6 @@
     "id": 2166,
     "vedette": "Ergänzungsgebühr",
     "slug": "ergaenzungsgebuehr"
-  },
-  {
-    "id": 2167,
-    "vedette": "ergänzungs-",
-    "slug": "ergaenzungs"
-  },
-  {
-    "id": 2168,
-    "vedette": "Erhebungstermin",
-    "slug": "erhebungstermin"
-  },
-  {
-    "id": 2169,
-    "vedette": "Erkenntnisgrund",
-    "slug": "erkenntnisgrund"
-  },
-  {
-    "id": 2170,
-    "vedette": "Erkenntniskraft",
-    "slug": "erkenntniskraft"
   },
   {
     "id": 2171,
@@ -9675,26 +8960,6 @@
     "slug": "wohlstand"
   },
   {
-    "id": 2316,
-    "vedette": "beispiel",
-    "slug": "beispiel"
-  },
-  {
-    "id": 2317,
-    "vedette": "beispiel (exemple)",
-    "slug": "beispiel-exemple"
-  },
-  {
-    "id": 2318,
-    "vedette": "beispiel (suite)",
-    "slug": "beispiel-suite"
-  },
-  {
-    "id": 2359,
-    "vedette": "vielmehr (exemples)",
-    "slug": "vielmehr-exemples"
-  },
-  {
     "id": 2329,
     "vedette": "Anmeldung",
     "slug": "anmeldung"
@@ -9715,19 +8980,9 @@
     "slug": "vermitteln"
   },
   {
-    "id": 2186,
-    "vedette": "zreno -",
-    "slug": "zreno"
-  },
-  {
     "id": 2190,
     "vedette": "Lebensverhältnisse",
     "slug": "lebensverhaeltnisse"
-  },
-  {
-    "id": 2191,
-    "vedette": "Nachhaltigkeit",
-    "slug": "nachhaltigkeit"
   },
   {
     "id": 2189,
@@ -9753,11 +9008,6 @@
     "id": 2195,
     "vedette": "Drehtüreffekt",
     "slug": "drehtuereffekt"
-  },
-  {
-    "id": 2198,
-    "vedette": "Ertragsstrom",
-    "slug": "ertragsstrom"
   },
   {
     "id": 2197,
@@ -9800,14 +9050,19 @@
     "slug": "verkaufsstelle"
   },
   {
-    "id": 2209,
-    "vedette": "orientieren",
-    "slug": "orientieren"
+    "id": 531,
+    "vedette": "orientiert",
+    "slug": "orientiert"
   },
   {
-    "id": 2207,
-    "vedette": "Nachholbedarf",
-    "slug": "nachholbedarf"
+    "id": 512,
+    "vedette": "Nachtrag",
+    "slug": "nachtrag"
+  },
+  {
+    "id": 2571,
+    "vedette": "jeweilig",
+    "slug": "jeweilig"
   },
   {
     "id": 2208,
@@ -9862,7 +9117,7 @@
   {
     "id": 2219,
     "vedette": "abseits",
-    "slug": "abseits"
+    "slug": "abseits-2"
   },
   {
     "id": 2386,
@@ -9870,7 +9125,7 @@
     "slug": "zeitplanung"
   },
   {
-    "id": 2221,
+    "id": 2582,
     "vedette": "Standortpolitik",
     "slug": "standortpolitik"
   },
@@ -10065,9 +9320,14 @@
     "slug": "ausloesen"
   },
   {
-    "id": 514,
-    "vedette": "Nachweis",
-    "slug": "nachweis"
+    "id": 515,
+    "vedette": "Nachwuchs",
+    "slug": "nachwuchs"
+  },
+  {
+    "id": 1465,
+    "vedette": "Nachwuchspolitik",
+    "slug": "nachwuchspolitik"
   },
   {
     "id": 55,
@@ -10108,6 +9368,11 @@
     "id": 2278,
     "vedette": "kurzfristig",
     "slug": "kurzfristig"
+  },
+  {
+    "id": 928,
+    "vedette": "abschöpfen",
+    "slug": "abschoepfen"
   },
   {
     "id": 137,
@@ -10195,6 +9460,11 @@
     "slug": "kern"
   },
   {
+    "id": 216,
+    "vedette": "beziehungsweise",
+    "slug": "beziehungsweise"
+  },
+  {
     "id": 727,
     "vedette": "Verhältnisse",
     "slug": "verhaeltnisse"
@@ -10215,9 +9485,9 @@
     "slug": "vielversprechend"
   },
   {
-    "id": 2347,
-    "vedette": "auslösen (exemples)",
-    "slug": "ausloesen-exemples"
+    "id": 44,
+    "vedette": "anfallen",
+    "slug": "anfallen"
   },
   {
     "id": 2322,
@@ -10318,11 +9588,6 @@
     "id": 2394,
     "vedette": "Verkehrsplanung",
     "slug": "verkehrsplanung"
-  },
-  {
-    "id": 2395,
-    "vedette": "Personalplanung",
-    "slug": "personalplanung"
   },
   {
     "id": 2393,
@@ -10440,6 +9705,11 @@
     "slug": "wirksamkeit"
   },
   {
+    "id": 428,
+    "vedette": "intensiv",
+    "slug": "intensiv"
+  },
+  {
     "id": 2401,
     "vedette": "übergeordnet",
     "slug": "uebergeordnet"
@@ -10475,6 +9745,11 @@
     "slug": "register"
   },
   {
+    "id": 1920,
+    "vedette": "Q-Leiter",
+    "slug": "q-leiter"
+  },
+  {
     "id": 2518,
     "vedette": "abtreten",
     "slug": "abtreten"
@@ -10486,8 +9761,8 @@
   },
   {
     "id": 491,
-    "vedette": "massgebend / massgeblich",
-    "slug": "massgebend-massgeblich"
+    "vedette": "massgebend",
+    "slug": "massgebend"
   },
   {
     "id": 310,
@@ -10557,12 +9832,7 @@
   {
     "id": 2542,
     "vedette": "kern-",
-    "slug": "kern"
-  },
-  {
-    "id": 2543,
-    "vedette": "regeln",
-    "slug": "regeln"
+    "slug": "kern-2"
   },
   {
     "id": 2545,
@@ -10571,8 +9841,8 @@
   },
   {
     "id": 2530,
-    "vedette": "massgeblich(1)",
-    "slug": "massgeblich1"
+    "vedette": "massgeblich",
+    "slug": "massgeblich"
   },
   {
     "id": 2552,
@@ -10583,6 +9853,11 @@
     "id": 10,
     "vedette": "Ablauf",
     "slug": "ablauf"
+  },
+  {
+    "id": 2543,
+    "vedette": "regeln",
+    "slug": "regeln"
   },
   {
     "id": 2553,
@@ -10618,10 +9893,5 @@
     "id": 2565,
     "vedette": "fundiert",
     "slug": "fundiert"
-  },
-  {
-    "id": 2568,
-    "vedette": "Schwerpunkt exemples",
-    "slug": "schwerpunkt-exemples"
   }
 ]

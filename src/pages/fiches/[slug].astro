@@ -15,8 +15,10 @@ const { fiche } = Astro.props
 const { traductions, exemples, liens } = fiche
 
 const groups = Object.entries(
-  Object.groupBy(traductions, ({ groupe }) => groupe)
+  Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`)
 )
+
+const hideFieldsColumn = traductions.every(({ sens }) => sens === '')
 
 const shareData = {
   title: 'sous la loupe',
@@ -41,6 +43,7 @@ const shareData = {
     <header class="flex justify-between">
       <h1 lang="de" class="lg:text-3xl text-2xl font-bold">
         {fiche.vedette}
+        <span class="text-lg font-light">{fiche.genre}</span>
       </h1>
       <div class="print:hidden">
         <button class="mr-3" id="share">
@@ -60,6 +63,11 @@ const shareData = {
       </div>
     </header>
 
+    <p class="text-sm max-w-4xl">
+      <span class="font-bold">Remarque :</span>
+      <span set:html={fiche.notes} class="text-sm whitespace-pre-line" />
+    </p>
+
     <!-- style="grid-template-rows: masonry" -->
     <div
       class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start print:block"
@@ -77,9 +85,11 @@ const shareData = {
           {
             groups.map(([group, translations]) => (
               <>
-                <h3 class="lg:text-sm text-xs align-baseline print:break-after-avoid">
-                  {group}
-                </h3>
+                {!hideFieldsColumn && (
+                  <h3 class="lg:text-sm text-xs align-baseline print:break-after-avoid">
+                    {group.split('_')[1]}
+                  </h3>
+                )}
                 <ul>
                   {
                     // @ts-ignore
