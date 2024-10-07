@@ -7,7 +7,7 @@ export type Props = {
 const { pageHeadings } = Astro.props
 ---
 
-<aside id="toc" class="sticky top-10 h-[90vh] overflow-y-auto">
+<aside id="toc" class="sticky top-10 h-[90vh] overflow-y-auto col-span-1">
   <ul class="text-right space-y-3 text-sm">
     {
       pageHeadings.map((h) => {

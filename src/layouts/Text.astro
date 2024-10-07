@@ -6,9 +6,11 @@ const { frontmatter, headings, url } = Astro.props
 ---
 
 <Layout title={frontmatter.title}>
-  <Header />
-  <article class="flex gap-x-8 justify-center">
-    <TOC pageHeadings={headings} />
-    <div class="prose lg:prose-xl text-justify flex-1"><slot /></div>
-  </article>
+  <div class="grid grid-cols-[auto 1fr] mt-8">
+    <Header />
+    <!--    <TOC pageHeadings={headings} /> -->
+    <article class="prose lg:prose-xl text-justify mx-auto mt-12">
+      <slot />
+    </article>
+  </div>
 </Layout>
