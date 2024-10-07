@@ -1,12 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro'
-import BackToHome from '../components/BackToHome.astro'
+import Header from '../components/Header.astro'
 import list from '../data/vedettes.json'
 const alphabet = 'abcdefghijklmnopqrstuvwz'.split('')
 ---
 
 <Layout title="Mots-vedettes | sous la loupe">
-  <BackToHome />
+  <Header />
   <div class="p-8 flex gap-x-6 flex-wrap lg:flex-nowrap">
     {
       alphabet.map((letter) => (
