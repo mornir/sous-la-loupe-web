@@ -1,6 +1,8 @@
 ---
 import { Icon } from 'astro-icon/components'
 import { pages } from './NavLinks.astro'
+
+const pathname = Astro.url.pathname
 ---
 
 <header class="max-w-screen-md mx-auto">
@@ -13,7 +15,13 @@ import { pages } from './NavLinks.astro'
       {
         [{ name: 'Recherche', slug: '/' }, ...pages].map((p) => (
           <li>
-            <a href={p.slug} class=" text-accent hover:underline">
+            <a
+              href={p.slug}
+              class={
+                'text-accent hover:underline' +
+                (pathname === p.slug ? ' text-primary hover:no-underline' : '')
+              }
+            >
               {p.name}
             </a>
           </li>
