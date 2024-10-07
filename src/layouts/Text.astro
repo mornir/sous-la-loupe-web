@@ -8,8 +8,8 @@ const { frontmatter, headings, url } = Astro.props
 <Layout title={frontmatter.title}>
   <div class="grid grid-cols-[auto 1fr] mt-8">
     <Header />
-    <!--    <TOC pageHeadings={headings} /> -->
-    <article class="prose lg:prose-xl text-justify mx-auto mt-12">
+    <TOC pageHeadings={headings} />
+    <article class="prose lg:prose-xl text-justify mx-auto mt-12 mb-32">
       <slot />
     </article>
   </div>
