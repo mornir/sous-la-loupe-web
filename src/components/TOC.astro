@@ -7,8 +7,8 @@ export type Props = {
 const { pageHeadings } = Astro.props
 ---
 
-<aside id="toc">
-  <ul class="xl:fixed top-14 text-right">
+<aside id="toc" class="sticky top-10 h-[90vh] overflow-y-auto">
+  <ul class="text-right space-y-3 text-sm">
     {
       pageHeadings.map((h) => {
         return (
@@ -35,6 +35,7 @@ const { pageHeadings } = Astro.props
           .querySelectorAll('#toc a')
           .forEach((e) => e.classList.remove('text-primary'))
         tocHeadingEl.classList.add('text-primary')
+        // tocHeadingEl.scrollIntoView()
       }
     }
   }

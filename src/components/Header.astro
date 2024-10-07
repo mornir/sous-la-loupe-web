@@ -3,12 +3,12 @@ import { Icon } from 'astro-icon/components'
 import { pages } from './NavLinks.astro'
 ---
 
-<header class="max-w-screen-md mx-auto sticky top-0">
+<header class="max-w-screen-md mx-auto bg-slate-400">
   <a href="/">
     <span class="sr-only">Retour à la page de recherche</span>
     <Icon name="logo" class="text-7xl mb-6 mx-auto" />
   </a>
-  <nav class="bg-white p-4">
+  <nav class="px-4 py-2 fixed top-10 bg-white">
     <ul class="flex justify-center mt-6 gap-x-4">
       {
         [{ name: 'Recherche', slug: '/' }, ...pages].map((p) => (
