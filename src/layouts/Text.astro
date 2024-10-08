@@ -6,7 +6,7 @@ const { frontmatter, headings, url } = Astro.props
 ---
 
 <Layout title={frontmatter.title}>
-  <div class="grid grid-cols-[1fr_2fr_1fr] mt-8 gap-x-8">
+  <div class="grid grid-cols-[1fr_2fr_1fr] mt-8 gap-x-8 3xl:gap-x-0">
     <TOC pageHeadings={headings} />
     <Header />
 
