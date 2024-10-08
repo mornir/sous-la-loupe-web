@@ -70,11 +70,12 @@ const shareData = {
         </p>
       )
     }
-    <details class="mt-4 max-w-4xl">
-      <summary class="cursor-pointer text-accent hover:underline"
-        >Définitions</summary
+    <details class="mt-4 max-w-4xl group">
+      <summary
+        class="cursor-pointer text-accent hover:underline group-open:underline w-fit"
+        >Définition</summary
       >
-      <ul class="text-sm space-y-4">
+      <ul class="text-sm space-y-4 mt-2">
         {
           fiche.definitions.map((def) => (
             <li>
@@ -100,7 +101,7 @@ const shareData = {
         </h2>
 
         <div
-          class="grid lg:grid-cols-[auto_1fr] lg:items-baseline gap-y-4 lg:gap-y-8 gap-x-16 lg:mt-8 mt-4 bg-slate-50 py-2 px-4 rounded-md max-w-prose print:columns-3xs print:block print:bg-white print:max-w-none print:px-0"
+          class=`grid lg:items-baseline gap-y-4 lg:gap-y-8 gap-x-16 lg:mt-8 mt-4 bg-slate-50 py-2 px-4 rounded-md max-w-prose print:columns-3xs print:block print:bg-white print:max-w-none print:px-0 ${hideFieldsColumn ? 'lg:grid-cols-1' : 'lg:grid-cols-[auto_1fr]'}`
         >
           {
             groups.map(([group, translations]) => (
