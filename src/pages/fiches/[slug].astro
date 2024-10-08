@@ -68,6 +68,24 @@ const shareData = {
       <span set:html={fiche.notes} class="text-sm whitespace-pre-line" />
     </p>
 
+    <details class="mt-4 max-w-4xl">
+      <summary class="cursor-pointer text-accent hover:underline"
+        >Définitions</summary
+      >
+      <ul class="text-sm space-y-4">
+        {
+          fiche.definitions.map((def) => (
+            <li>
+              <p>
+                <span class="font-bold">{def.source} :</span>
+                {def.definition}
+              </p>
+            </li>
+          ))
+        }
+      </ul>
+    </details>
+
     <!-- style="grid-template-rows: masonry" -->
     <div
       class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start print:block"
@@ -167,3 +185,10 @@ const shareData = {
     shareButton.style.display = 'none'
   }
 </script>
+
+<style>
+  summary::marker {
+    color: #d38c56;
+    font-size: 1.2em;
+  }
+</style>
