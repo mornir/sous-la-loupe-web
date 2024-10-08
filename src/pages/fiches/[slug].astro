@@ -62,12 +62,14 @@ const shareData = {
         >
       </div>
     </header>
-
-    <p class="text-sm max-w-4xl">
-      <span class="font-bold">Remarque :</span>
-      <span set:html={fiche.notes} class="text-sm whitespace-pre-line" />
-    </p>
-
+    {
+      fiche.notes && (
+        <p class="text-sm max-w-4xl">
+          <span class="font-bold">Remarque :</span>
+          <span set:html={fiche.notes} class="whitespace-pre-line" />
+        </p>
+      )
+    }
     <details class="mt-4 max-w-4xl">
       <summary class="cursor-pointer text-accent hover:underline"
         >Définitions</summary
@@ -78,7 +80,7 @@ const shareData = {
             <li>
               <p>
                 <span class="font-bold">{def.source} :</span>
-                {def.definition}
+                <span set:html={def.definition} class="whitespace-pre-line" />
               </p>
             </li>
           ))
