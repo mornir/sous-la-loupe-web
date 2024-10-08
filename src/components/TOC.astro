@@ -9,9 +9,9 @@ const { pageHeadings } = Astro.props
 pageHeadings.shift()
 ---
 
-<aside id="toc">
+<aside id="toc" class="fixed top-50 min-h-[80vh]">
   <ul
-    class="text-right space-y-3 text-sm 2xl:text-xl overflow-y-auto max-h-[80vh] no-scrollbar"
+    class="text-right space-y-3 text-sm overflow-y-auto max-h-[80vh] no-scrollbar"
   >
     {
       pageHeadings.map((h) => {
@@ -39,7 +39,7 @@ pageHeadings.shift()
           .querySelectorAll('#toc a')
           .forEach((e) => e.classList.remove('text-primary'))
         tocHeadingEl.classList.add('text-primary')
-        //tocHeadingEl.scrollIntoView()
+        tocHeadingEl.scrollIntoView()
       }
     }
   }
