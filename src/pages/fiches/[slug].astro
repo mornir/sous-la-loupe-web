@@ -12,7 +12,7 @@ export function getStaticPaths() {
 
 const { fiche } = Astro.props
 
-const { traductions, exemples, liens } = fiche
+const { traductions, exemples, liens, notes, definitions } = fiche
 
 const groups = Object.entries(
   Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`)
@@ -62,32 +62,35 @@ const shareData = {
         >
       </div>
     </header>
+    
     {
-      fiche.notes && (
+      notes && (
         <p class="text-sm max-w-4xl">
           <span class="font-bold">Remarque :</span>
-          <span set:html={fiche.notes} class="whitespace-pre-line" />
+          <span set:html={notes} class="whitespace-pre-line" />
         </p>
       )
     }
-    <details class="mt-4 max-w-4xl group">
-      <summary
-        class="cursor-pointer text-accent hover:underline group-open:underline w-fit"
-        >Définition</summary
-      >
-      <ul class="text-sm space-y-4 mt-2">
-        {
-          fiche.definitions.map((def) => (
-            <li>
-              <p>
-                <span class="font-bold">{def.source} :</span>
-                <span set:html={def.definition} class="whitespace-pre-line" />
-              </p>
-            </li>
-          ))
-        }
-      </ul>
-    </details>
+
+    {
+      definitions.length > 0 && (
+        <details class="mt-4 max-w-4xl group">
+          <summary class="cursor-pointer text-accent hover:underline group-open:underline w-fit">
+            Définition
+          </summary>
+          <ul class="text-sm space-y-4 mt-2">
+            {definitions.map((def) => (
+              <li>
+                <p>
+                  <span class="font-bold">{def.source} :</span>
+                  <span set:html={def.definition} class="whitespace-pre-line" />
+                </p>
+              </li>
+            ))}
+          </ul>
+        </details>
+      )
+    }
 
     <!-- style="grid-template-rows: masonry" -->
     <div
