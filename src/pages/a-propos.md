@@ -45,7 +45,7 @@ Grâce à cette notoriété, nos fiches s’envolent régulièrement vers le Can
 
 ## 10ᵉ anniversaire
 
-Lors de son 10ᵉ anniversaire en 1969, le Fichier compte plus de 800 membres-abonnés. Il est indubitable que le Fichier pourrait compter 1 000 abonnés et plus en cette année où il fête son 10ᵉ anniversaire. Si tel n’est pas le cas, c’est qu’il est une communauté et non un commerce de fiches. Il tient fermement à ce principe.
+Lors de son 10ᵉ anniversaire en 1969, le Fichier compte plus de 800 membres-abonnés. Il est indubitable que le Fichier pourrait compter 1000 abonnés et plus en cette année où il fête son 10ᵉ anniversaire. Si tel n’est pas le cas, c’est qu’il est une communauté et non un commerce de fiches. Il tient fermement à ce principe.
 
 Participent à la manifestation de ce 10ᵉ anniversaire MM. Roger Bonvin, conseiller fédéral, et Roger Merlin, chef du service de rédaction et de traduction de la Chancellerie fédérale. La réception est suivie d’un exposé du professeur Jean Humbert de l’Institut de français de l’Université de Fribourg sur le thème «&nbsp;Prestige du style&nbsp;».
 
@@ -88,7 +88,7 @@ Entre le 20ᵉ et le 25ᵉ anniversaire, soit de 1980 à 1985, le Fichier franç
 
 Cette année 1981 était fertile en événements pour le Fichier français, puisqu’à l’automne, la IXe Biennale de la langue française se tient à Lausanne et à Aoste du 2 au 10 septembre avec pour thèmes&nbsp;: «&nbsp;Qualité de la langue, qualité de la vie&nbsp;», «&nbsp;L’ordinateur trait d’union de la francophonie&nbsp;» et «&nbsp;La presse d’entreprise et la langue française&nbsp;». Pour la partie lausannoise et le transfert de la Biennale à Aoste, l’organisation est confiée au Fichier français. Le comité la délègue à Amiguet et à Monnerat.
 
-1981 est l’année qui voit la publication de l’opuscule «&nbsp;Précis de formules épistolaires&nbsp;», tiré à 2 500 exemplaires. Trois ans plus tard, le Fichier fait un retirage de 2 000 exemplaires.
+1981 est l’année qui voit la publication de l’opuscule «&nbsp;Précis de formules épistolaires&nbsp;», tiré à 2500 exemplaires. Trois ans plus tard, le Fichier fait un retirage de 2000 exemplaires.
 
 En 1982, entrée au comité de Patrick Bergen, puis en 1983 de Patrice Clerc. L’assemblée de 1982 est marquée par une remarquable conférence de M. Joseph Hanse, auteur du «&nbsp;Dictionnaire des difficultés grammaticales et lexicologiques&nbsp;».
 
@@ -160,7 +160,7 @@ Je reprends là où Jean-Pierre Monnerat a terminé son récit détaillé de l�
 
 Dans l’élan occasionné par le 50ᵉ anniversaire, une commission ad hoc menée par Mme Josette Fallet, alors collaboratrice à Panorama (Formation orientation marché du travail), reprend le _Précis de formules épistolaires_ épuisé de longue date et régulièrement demandé.
 
-Elle procède à une refonte complète du Précis, le modernise et y ajoute plusieurs chapitres. L’ouvrage intitulé «&nbsp;Correspondre aujourd’hui&nbsp;» est publié en octobre 2011 à 5 000 exemplaires et mis en vente pour le prix de 20 francs. Il connaît un succès immédiat et donne un nouvel éclat à nos travaux. De plus, les recettes générées par les ventes permettent de renflouer la caisse de l’association mise à mal par les festivités de 2009.
+Elle procède à une refonte complète du Précis, le modernise et y ajoute plusieurs chapitres. L’ouvrage intitulé «&nbsp;Correspondre aujourd’hui&nbsp;» est publié en octobre 2011 à 5000 exemplaires et mis en vente pour le prix de 20 francs. Il connaît un succès immédiat et donne un nouvel éclat à nos travaux. De plus, les recettes générées par les ventes permettent de renflouer la caisse de l’association mise à mal par les festivités de 2009.
 
 Lors de l’assemblée générale de 2011, l’orateur est Alexandre Duchêne, directeur de l’Institut de plurilinguisme de l’Université de Fribourg, qui présente un exposé sur «&nbsp;Le plurilinguisme dans les dessins de presse&nbsp;: quand la satire nourrit le débat social&nbsp;».
 
