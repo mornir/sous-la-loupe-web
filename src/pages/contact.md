@@ -5,9 +5,12 @@ title: 'Contact'
 
 # Contact
 
-L'association _sous la loupe_ a été dissolue en 2024 et les fiches qu'elle a produites pendant ses \*\* ans d'existence ont été "archivées" sur ce site. Il n'est donc plus question de créer de nouvelles fiches ou de modifier les fiches existantes. Toutefois, vous pouvez encore signaler les éventuelles fautes de frappe ou d'orthographe.
+L'association _sous la loupe_ a été dissolue en 2024 et les fiches qu'elle a produites [depuis sa création en 1959](/a-propos/) ont été "archivées" sur ce site. Il n'est donc plus possible de créer de nouvelles fiches ou de modifier les fiches existantes. Toutefois, vous pouvez encore signaler les fautes de frappe ou d'orthographe ainsi que les problèmes techniques.
 
 ## Comment me contacter
 
-Les propositions, questions ou corrections doivent être soumises [sur cette page](https://github.com/mornir/sous-la-loupe-web/issues). Pour ce faire, vous devez créer un compte GitHub.
-Une fois connectée, vous pouvez cliquer sur le bouton vert New Issue, pour ouvrir le formulaire de demande. Écrivez un titre et remplisser la description, puis cliquer sur le bouton Submit new issue.
+Comme moyen de contact, j'ai choisi d'utiliser la plateforme GitHub, sur laquelle est également hébergé le code du présent site.
+
+Après avoir créé un compte GitHub et vous être connecté, vous pourrez accéder au [formulaire de contact](https://github.com/mornir/sous-la-loupe-web/issues/new) afin d'ouvrir un nouveau ticket. Donnez un titre à votre ticket et ajoutez une courte description, puis cliquez sur le bouton `Submit new issue`.
+
+Votre ticket sera alors visible dans la [liste des tickets](https://github.com/mornir/sous-la-loupe-web/issues) et vous serez notifié par e-mail quand j'y répondrai (temps de réponse sans garantie).
