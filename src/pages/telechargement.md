@@ -9,14 +9,14 @@ Les fiches peuvent être téléchargées et utilisées gratuitement dans le cadr
 
 ## Format TBX
 
-Le format TBX est un standard international pour l'échange de données terminologiques. Il permet garantir l'interopérabilité entre les différents outils de terminologie. Le fichier TBX peut être importé dans votre base de données terminologiques. Il contient les données suivantes : la vedette, les traductions françaises, [compléter]
+Le format TBX est un standard international pour l'échange de données terminologiques. Il permet de garantir l'interopérabilité entre les différents outils de terminologie. Le fichier TBX peut être importé dans votre base de données terminologiques. Il contient les données suivantes : la vedette, les traductions françaises, [compléter]
 La plupart des outils permettent outre de sélectionner les données à importer.
 
 [Télécharger le fichier TBX]()
 
 ## Format JSON
 
-Le format JSON est un standard universel pour l'échange de données entre systèmes, notamment sur le web. Il peut aussi aisément être convetis dans d'autres formats. Le fichier JSON contient l'ensemble des données de toutes les fiches. En fait, le module fiche du présent site est construit à partir de ce fichier.
+Le format JSON est un standard universel pour l'échange de données entre systèmes, notamment sur le web. Il peut aussi aisément être converti dans d'autres formats. Le fichier JSON contient l'ensemble des données de toutes les fiches. En fait, le module fiche du présent site est construit à partir de ce fichier.
 
 <a href="https://github.com/mornir/sous-la-loupe-web/blob/master/src/data/vedettes.json" download>Télécharger le fichier JSON</a>
 

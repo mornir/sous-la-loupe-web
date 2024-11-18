@@ -5,7 +5,7 @@ title: 'Historique'
 
 # Historique
 
-«&nbsp;Une excellente innovation romande à Berne&nbsp;: le Fichier français&nbsp;». Ainsi titrait un journal fin 1959 au sujet de l’Association qui a célébré son jubilé en 2009. L’on apprend par cet article les motifs qui ont poussé quelques fonctionnaires à créer une association&nbsp;: il fallait «&nbsp;lutter contre le massacre de la langue française&nbsp;» selon la formule d'_André Amiguet_.
+«&nbsp;Une excellente innovation romande à Berne&nbsp;: le Fichier français&nbsp;». Ainsi titrait un journal fin&nbsp;1959 au sujet de l’Association qui a célébré son jubilé en&nbsp;2009. L’on apprend par cet article les motifs qui ont poussé quelques fonctionnaires à créer une association&nbsp;: il fallait «&nbsp;lutter contre le massacre de la langue française&nbsp;» selon la formule d'André Amiguet.
 
 ![Comité du Fichier français de Berne](../images/Bild5.jpg)
 
@@ -41,7 +41,7 @@ Le 25 août 1959, réunis dans un salon de l’hôtel Schweizerhof à Berne, une
 
 Deux mois après sa création, le Fichier français compte plus de cent abonnés et il déborde des frontières de la ville fédérale pour s’en aller propager ses idées et ses fiches dans les cantons de Bâle&#8209;Ville, Zurich, Vaud et Neuchâtel. Le mois suivant, il compte plus de deux cents membres (abonnés). C’est l’occasion pour lui d’affirmer le principe fondamental sur lequel il fonde ses intentions et de le communiquer à ses membres&nbsp;: «&nbsp;L’autorité du Fichier français est faite de la loyauté et de la fermeté avec lesquelles chaque abonné respecte les décisions de l’assemblée et s’astreint à suivre les recommandations qui figurent sur les fiches&nbsp;».
 
-En février 1960, le Fichier abandonne les fiches polycopiées pour les éditer en typographie. Il risque un grand coup&nbsp;: à l’époque – nous sommes au sixième mois d’existence – il y a trois cents abonnés. Or, on imprime cinq cents fiches. L’audace est récompensée puisque le 15 décembre 1960, nous dénombrons 516 abonnés. Le prix de l’abonnement est de 7 francs le cent de fiches dès le 1er janvier 1961. Il est resté à ce tarif pendant 10 ans.
+En février 1960, le Fichier abandonne les fiches polycopiées pour les éditer en typographie. Il risque un grand coup&nbsp;: à l’époque – nous sommes au sixième mois d’existence – il y a trois cents abonnés. Or, on imprime cinq cents fiches. L’audace est récompensée puisque le 15 décembre 1960, nous dénombrons 516 abonnés. Le prix de l’abonnement est de 7 francs le cent de fiches dès le 1ᵉʳ janvier 1961. Il est resté à ce tarif pendant 10&nbsp;ans.
 
 L'absence de publicité a été compensée par des soutiens divers, notamment par le professeur Camille Dudan dans les journaux et revues auxquels il collaborait et le journaliste Jean Nicolier de la Gazette de Lausanne. Hors de nos frontières, Vie et langage, Défense de la langue française, les Nouvelles littéraires consacrèrent de nombreux articles d’estime à nos travaux.
 
@@ -70,17 +70,17 @@ Dès cette époque, le Fichier français échange ses travaux avec les organisme
 - l’Office de la langue française du Ministère des affaires culturelles à Montréal
 - le Club de la grammaire à Genève
 - l’Association internationale des journalistes de langue française
-- l’Association internationale des parlementaires de langue française.
+- l’Association internationale des parlementaires de langue française
 
 En 1964, le Fichier est invité à Paris où il participe à la constitution de la Fédération du français universel. Il y est représenté par André Amiguet. Il prend part régulièrement aux Biennales de la langue française où ses membres, dont André Amiguet et Pierre Murith, présentent des exposés appréciés.
 
 ## Première publication
 
-En 1965, le fichier publie un modeste ouvrage intitulé «&nbsp;De l’emploi des majuscules&nbsp;». Cette brochure connaît un vif succès et est rééditée en octobre 1973.
+En 1965, le Fichier publie un modeste ouvrage intitulé _De l’emploi des majuscules_. Cette brochure connaît un vif succès et est rééditée en octobre 1973.
 
 ## Entre 10ᵉ et 20ᵉ anniversaires
 
-Les activités du Fichier se déroulent normalement, mais l’intérêt pour les Fiches blanches faiblissant, on finit par y renoncer. L’assemblée générale du 11 octobre 1971 ajoutait aux statuts un article «&nbsp;provisoire&nbsp;» dont la teneur est la suivante&nbsp;: Article 14. Sur proposition de la commission, les articles 1er et 2 des statuts sont modifiés en ce sens que l’activité du Fichier français se limitera à la publication des fiches vertes et à une assemblée générale annuelle avec conférence. Cet article fut abrogé quelques années plus tard.
+Les activités du Fichier se déroulent normalement, mais l’intérêt pour les fiches blanches faiblissant, on finit par y renoncer. L’assemblée générale du 11 octobre 1971 ajoutait aux statuts un article «&nbsp;provisoire&nbsp;» dont la teneur est la suivante&nbsp;: Article 14. Sur proposition de la commission, les articles 1ᵉʳ et 2 des statuts sont modifiés en ce sens que l’activité du Fichier français se limitera à la publication des fiches vertes et à une assemblée générale annuelle avec conférence. Cet article fut abrogé quelques années plus tard.
 
 ## 20ᵉ anniversaire – octobre 1979
 
@@ -100,7 +100,7 @@ Cette année 1981 était fertile en événements pour le Fichier français, puis
 
 ![Précis de formules épistolaires](../images/Bild6.jpg)
 
-En 1982, entrée au comité de Patrick Bergen, puis en 1983 de Patrice Clerc. L’assemblée de 1982 est marquée par une remarquable conférence de M. Joseph Hanse, auteur du «&nbsp;Dictionnaire des difficultés grammaticales et lexicologiques&nbsp;».
+En 1982, entrée au comité de Patrick Bergen, puis en 1983 de Patrice Clerc. L’assemblée de 1982 est marquée par une remarquable conférence de M. Joseph Hanse, auteur du _Dictionnaire des difficultés grammaticales et lexicologiques_.
 
 ## 25ᵉ anniversaire
 
@@ -114,7 +114,7 @@ La Biennale se tient à Lafayette. Le Fichier y est représenté par MM. André 
 
 Le comité constate depuis un certain temps des lourdeurs, une chute d’intérêt dans la préparation des fiches. Le nombre des membres baisse aussi fortement. Il en reste à peine 350 à 400. Il lance une courte enquête très fructueuse sur l’avenir du Fichier.
 
-Le comité reçoit donc un encouragement manifeste pour continuer. Il a aussi un nouveau réservoir de membres désireux de s’investir. Il y puise pour consolider les structures, notamment la «&nbsp;Commission des fiches vertes&nbsp;». À ce moment&#8209;là, nous avions édité 1 192 fiches vertes. C’est en 1994 aussi que le comité et la commission verte décident de réviser toutes les fiches vertes et de les publier sur leur propre site internet. Commande est passée par l’intermédiaire de Walter Blaser à la société ARK&#8209;IT.
+Le comité reçoit donc un encouragement manifeste pour continuer. Il a aussi un nouveau réservoir de membres désireux de s’investir. Il y puise pour consolider les structures, notamment la «&nbsp;Commission des fiches vertes&nbsp;». À ce moment&#8209;là, nous avions édité 1192 fiches vertes. C’est en 1994 aussi que le comité et la commission verte décident de réviser toutes les fiches vertes et de les publier sur leur propre site internet. Commande est passée par l’intermédiaire de Walter Blaser à la société ARK&#8209;IT.
 
 ## 40ᵉ anniversaire – 6 novembre 1999
 
