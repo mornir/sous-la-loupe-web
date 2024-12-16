@@ -5,14 +5,12 @@ title: 'À propos'
 
 # À propos
 
-L'association _sous la loupe_ a été dissoute en 2024 et les fiches qu'elle a produites [depuis sa création en 1959](/a-propos/) ont été "archivées" sur ce site. Il n'est donc plus possible de créer de nouvelles fiches ou de modifier les fiches existantes. Toutefois, vous pouvez encore signaler les fautes de frappe ou d'orthographe ainsi que les problèmes techniques.
-
-## Historique
+La contenu de ce site est le résultat des travaux réalisés par l'association _sous la loupe_, [fondée en 1959 et dissoute en 2024](/historique/). Les fiches qu'elle a produites sont archivées sur ce site. Il n'est donc plus possible de modifier des fiches ou d’en ajouter. Toutefois, vous pouvez encore signaler les fautes de frappe ou d'orthographe ainsi que les problèmes techniques.
 
 ## Contact
 
-Comme moyen de contact, j'ai choisi d'utiliser la plateforme GitHub, sur laquelle est également hébergé le code du présent site.
+Comme moyen de contact, j'ai choisi d'utiliser la plateforme GitHub, sur laquelle est également archivé le code du présent site.
 
-Après avoir créé un compte GitHub et vous être connecté, vous pourrez accéder au [formulaire de contact](https://github.com/mornir/sous-la-loupe-web/issues/new) afin d'ouvrir un nouveau ticket. Donnez un titre à votre ticket et ajoutez une courte description, puis cliquez sur le bouton `Submit new issue`.
+Vous devez d'abord créer un compte GitHub pour accéder au [formulaire de contact](https://github.com/mornir/sous-la-loupe-web/issues/new). Vous pourrez alors ouvrir un nouveau ticket. Donnez-lui un titre et ajoutez une courte description, puis cliquez sur le bouton `Submit new issue`.
 
-Votre ticket sera alors visible dans la [liste des tickets](https://github.com/mornir/sous-la-loupe-web/issues) et informé∙e par e-mail du moment où je serai en mesure de répondre (temps de réponse sans garantie).
+Votre ticket sera alors visible dans la [liste des tickets](https://github.com/mornir/sous-la-loupe-web/issues) et vous recevrez un e-mail automatique quand je répondrai à votre ticket (temps de réponse sans garantie).
