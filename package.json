@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@astrojs/alpinejs": "^0.4.1",
+    "@astrojs/sitemap": "^3.2.1",
     "@astrojs/tailwind": "^5.1.4",
     "@iconify-json/icon-park-outline": "^1.2.2",
     "@iconify-json/mdi": "^1.2.2",
