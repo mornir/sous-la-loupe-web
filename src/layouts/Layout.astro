@@ -1,12 +1,14 @@
 ---
 interface Props {
   title: string
+  desc?: string
 }
 
-const { title } = Astro.props
+const { title, desc } = Astro.props
 
-const description =
-  'sous la loupe est un outil s’inscrivant dans un contexte suisse avec des solutions à plus de 2400 difficultés de traduction.'
+const description = desc
+  ? desc
+  : 'sous la loupe est un outil s’inscrivant dans un contexte suisse avec des solutions à plus de 2400 difficultés de traduction.'
 ---
 
 <!doctype html>
@@ -15,6 +17,7 @@ const description =
     <meta charset="UTF-8" />
     <meta name="description" content={description} />
     <meta name="viewport" content="width=device-width" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
     <link
       rel="icon"
       href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text x=%22-.1em%22 y=%22.9em%22 font-size=%2280%22>🔎</text></svg>"
@@ -22,6 +25,8 @@ const description =
     <meta name="generator" content={Astro.generator} />
     <meta property="og:title" content="sous la loupe" />
     <meta property="og:description" content={description} />
+    <meta property="og:image" content="https://www.souslaloupe.ch/logo.png" />
+    <meta name="twitter:card" content="summary_large_image" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

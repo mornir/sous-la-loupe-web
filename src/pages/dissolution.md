@@ -3,9 +3,9 @@ layout: ../layouts/Text.astro
 title: 'Communiqué de dissolution'
 ---
 
-# _sous la loupe_, c'est fini\*
+# _sous la loupe_, c'est fini
 
-_L'Association **sous la loupe** met fin à ses activités, mais \*son héritage est préservé en ligne._
+_L'Association **sous la loupe** met fin à ses activités, mais son héritage est préservé en ligne._
 
 Après 65 ans au service de ses membres et de la langue française, _sous la loupe_ tire sa révérence en raison de plusieurs facteurs. Il s’agit notamment de l’évolution des habitudes sociales (activités multiples et difficulté des jeunes générations à s’engager dans un mouvement) ainsi que du développement des nouveaux outils informatiques d’aide à la traduction que les travaux de _sous la loupe_ ne peuvent pas concurrencer. Les exigences de rentabilité mettent les traductrices et les traducteurs sous pression et leur rendent la consultation de nos fiches difficile parce que trop chronophage. Les appels lancés à plusieurs reprises pour trouver des successeurs au comité n’ont pas trouvé d’écho et le comité actuel se retire.
 
@@ -20,7 +20,7 @@ Le présent site se veut minimaliste (seuls les fiches et l’[historique de l�
 - Affichage correct des marques de formatage (gras, italique, retours à ligne)
 - Fiches [téléchargeables dans différents formats](/telechargement/), aussi pour les logiciels de TAO
 
-Voici pour finir une liste de documents en lien avec la dissolution de l'association :
+Courant janvier 2025, les documents suivants en lien avec la dissolution de l'association seront mis en ligne :
 
 - Rapport des vérificateurs des comptes
 - Attestation du virement des avoirs à l’ASTTI
