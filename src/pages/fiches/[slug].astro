@@ -22,12 +22,17 @@ const hideFieldsColumn = traductions.every(({ sens }) => sens === '')
 
 const shareData = {
   title: 'sous la loupe',
-  text: `Comment traduire ${fiche.vedette}`,
+  text: `Comment traduire "${fiche.vedette}" ?`,
   url: Astro.url.pathname,
 }
+
+const description = `Comment traduire "${fiche.vedette}" ? ➡ ${traductions
+  .map((t) => t.terme)
+  .slice(0, 7)
+  .join(', ')}...`
 ---
 
-<Layout title={fiche.vedette + ' | sous la loupe'}>
+<Layout title={fiche.vedette + ' | sous la loupe'} desc={description}>
   <div
     class="mt-8 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-6 print:hidden"
   >
