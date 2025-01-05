@@ -18,7 +18,7 @@ Le présent site se veut minimaliste (seuls les fiches et l’[historique de l�
 - Fonction de recherche améliorée (instantanée, _fuzzy match_, accessible au clavier)
 - Possibilité de partager ou d'enregistrer le lien d'une fiche
 - Affichage correct des marques de formatage (gras, italique, retours à ligne)
-- Fiches [téléchargeables dans différents formats](/telechargement/), aussi pour les logiciels de TAO
+- [Fiches téléchargeables](/telechargement/)
 
 Courant janvier 2025, les documents suivants en lien avec la dissolution de l'association seront mis en ligne :
 
