@@ -34,7 +34,7 @@ const description = `Comment traduire "${fiche.vedette}" ? ➡ ${traductions
 
 <Layout title={fiche.vedette + ' | sous la loupe'} desc={description}>
   <div
-    class="mt-8 sm:mt-16 flex flex-col sm:flex-row items-center justify-center gap-6 print:hidden"
+    class="mt-8 sm:mt-12 flex flex-col sm:flex-row items-center justify-center gap-6 print:hidden"
   >
     <a href="/">
       <Icon name="logo" class="text-6xl sm:text-5xl" />
@@ -43,7 +43,7 @@ const description = `Comment traduire "${fiche.vedette}" ? ➡ ${traductions
   </div>
 
   <article
-    class="mb-24 mt-12 lg:mt-20 border-primary border-4 p-5 sm:p-8 md:p-12 xl:p-20 rounded-lg max-w-screen-xl mx-auto"
+    class="mb-8 sm:mb-10 mt-12 lg:mt-20 border-primary border-4 p-5 sm:p-8 md:p-12 xl:p-20 rounded-lg max-w-screen-xl mx-auto"
   >
     <header class="flex justify-between">
       <h1 lang="de" class="lg:text-3xl text-2xl font-bold">
@@ -179,6 +179,14 @@ const description = `Comment traduire "${fiche.vedette}" ? ➡ ${traductions
       }
     </div>
   </article>
+  <footer class="flex justify-center pb-6 sm:pb-8" slot="footer">
+    <a
+      href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.fr"
+      target="_blank"
+    >
+      <Icon name="licence" class="text-2xl sm:text-3xl" />
+    </a>
+  </footer>
 </Layout>
 
 <script is:inline define:vars={{ shareData }}>
