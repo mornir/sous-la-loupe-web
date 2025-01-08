@@ -39,6 +39,7 @@ const description = desc
     <main class={Astro.url.pathname !== '/' && 'mx-4'}>
       <slot />
     </main>
+    <slot name="footer" />
   </body>
 </html>
 <style is:global>
