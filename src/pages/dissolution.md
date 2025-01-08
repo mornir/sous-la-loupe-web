@@ -24,7 +24,7 @@ Courant janvier 2025, les documents suivants en lien avec la dissolution de l'as
 
 - Rapport des vérificateurs des comptes
 - Attestation du virement des avoirs à l’ASTTI
-- Procès-verbal de l'assemblée de dissolution
+- [Procès-verbal de l'assemblée de dissolution](/documents/SLL_AGex_PV_241119_signe-ALG-img.pdf)
 - Documents archivés
 
 **Le comité remercie tous ses membres de leur fidélité durant de longues années et souhaite à chacune et chacun un bel avenir. 👋**
