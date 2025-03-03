@@ -11,15 +11,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/alpinejs": "^0.4.1",
+    "@astrojs/alpinejs": "^0.4.3",
     "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/tailwind": "^5.1.4",
+    "@astrojs/tailwind": "^6.0.0",
     "@iconify-json/icon-park-outline": "^1.2.2",
     "@iconify-json/mdi": "^1.2.2",
     "@types/alpinejs": "^3.13.11",
     "alpinejs": "^3.14.8",
     "alpinejs-masonry": "^1.0.16",
-    "astro": "^5.1.1",
+    "astro": "^5.4.1",
     "astro-icon": "^1.1.5",
     "fuse.js": "^7.0.0",
     "sharp": "^0.33.5",
