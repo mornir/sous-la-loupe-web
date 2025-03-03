@@ -22,7 +22,7 @@ Le présent site se veut minimaliste (seuls les fiches et l’[historique de l�
 
 Courant janvier 2025, les documents suivants en lien avec la dissolution de l'association seront mis en ligne :
 
-- Rapport des vérificateurs des comptes
+- [Rapport des vérificateurs des comptes](/documents/rapport_verificateurs_comptes.pdf)
 - Attestation du virement des avoirs à l’ASTTI
 - [Procès-verbal de l'assemblée de dissolution](/documents/SLL_AGex_PV_241119_signe-ALG-img.pdf)
 - Documents archivés
