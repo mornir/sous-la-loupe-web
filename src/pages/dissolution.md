@@ -11,7 +11,7 @@ Après 65 ans au service de ses membres et de la langue française, _sous la lou
 
 **En conséquence, l’association a été dissoute à l’unanimité par décision de l’Assemblée générale extraordinaire du 19 novembre 2024**.
 
-Néanmoins, l'héritage laissé par _sous la loupe_ est préservé sur ce nouveau site. En effet, toutes les fiches sont dorénavant librement accessibles à tout un chacun. Veuillez cependant noter qu’il n'est plus possible de modifier des fiches ou d’en ajouter. Toutefois, il reste possible de [signaler](/contact/) les fautes de frappe et autres coquilles.
+Néanmoins, l'héritage laissé par _sous la loupe_ est préservé sur ce nouveau site. En effet, toutes les fiches sont dorénavant librement accessibles à tout un chacun. Veuillez cependant noter qu’il n'est plus possible de modifier des fiches ou d’en ajouter. Toutefois, il reste possible de [signaler](/a-propos/) les fautes de frappe et autres coquilles.
 
 Le présent site se veut minimaliste (seuls les fiches et l’[historique de l’association](/historique/) ont été conservés), mais présente quand même des améliorations :
 
