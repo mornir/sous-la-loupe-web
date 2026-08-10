@@ -184221,8 +184221,8 @@
     "exemples": [
       {
         "id": 1735,
-        "de": "Über di<b>es</b><b>e</b><b>s</b><b>Junktim</b><b>b</b><b>e</b><b>st</b>eht im Ausschuss Konsens.",
-        "fr": "Il existe un consensus en commission sur ce train de mesures.Il existe un consensus en commission sur ce <b>train de mesures</b>.",
+        "de": "Über dieses Junktim besteht im Ausschuss Konsens.",
+        "fr": "Il existe un consensus en commission sur ce <b>train de mesures</b>.",
         "position": 1
       },
       {
