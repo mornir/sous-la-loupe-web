@@ -1,8 +1,8 @@
 ---
 import { Icon } from 'astro-icon/components'
-import Layout from '../../layouts/Layout.astro'
-import fiches from '../../data/fiches.json'
-import AlpineSearchBox from '@components/AlpineSearchBox.astro'
+import Layout from '@/layouts/Layout.astro'
+import fiches from '@/data/fiches.json'
+import AlpineSearchBox from '@/components/AlpineSearchBox.astro'
 
 export function getStaticPaths() {
   return fiches.map((fiche) => {
@@ -15,7 +15,7 @@ const { fiche } = Astro.props
 const { traductions, exemples, liens, notes, definitions } = fiche
 
 const groups = Object.entries(
-  Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`)
+  Object.groupBy(traductions, ({ groupe, sens }) => `${groupe}_${sens}`),
 )
 
 const hideFieldsColumn = traductions.every(({ sens }) => sens === '')

@@ -2,7 +2,7 @@
   "name": "sous-la-loupe-web",
   "type": "module",
   "version": "0.0.1",
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@11.20.0",
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
