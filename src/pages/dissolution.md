@@ -13,18 +13,4 @@ Après 65 ans au service de ses membres et de la langue française, _sous la lou
 
 Néanmoins, l'héritage laissé par _sous la loupe_ est préservé sur ce nouveau site. En effet, toutes les fiches sont dorénavant librement accessibles à tout un chacun. Veuillez cependant noter qu’il n'est plus possible de modifier des fiches ou d’en ajouter. Toutefois, il reste possible de [signaler](/a-propos/) les fautes de frappe et autres coquilles.
 
-Le présent site se veut minimaliste (seuls les fiches et l’[historique de l’association](/historique/) ont été conservés), mais présente quand même des améliorations :
-
-- Fonction de recherche améliorée (instantanée, _fuzzy match_, accessible au clavier)
-- Possibilité de partager ou d'enregistrer le lien d'une fiche
-- Affichage correct des marques de formatage (gras, italique, retours à ligne)
-- [Fiches téléchargeables](/telechargement/)
-
-Courant janvier 2025, les documents suivants en lien avec la dissolution de l'association seront mis en ligne :
-
-- [Rapport des vérificateurs des comptes](/documents/rapport_verificateurs_comptes.pdf)
-- Attestation du virement des avoirs à l’ASTTI
-- [Procès-verbal de l'assemblée de dissolution](/documents/SLL_AGex_PV_241119_signe-ALG-img.pdf)
-- Documents archivés
-
 **Le comité remercie tous ses membres de leur fidélité durant de longues années et souhaite à chacune et chacun un bel avenir. 👋**

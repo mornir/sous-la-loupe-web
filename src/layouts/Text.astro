@@ -1,16 +1,14 @@
 ---
-import Layout from '../layouts/Layout.astro'
-import TOC from '../components/TOC.astro'
-import Header from '../components/Header.astro'
-const { frontmatter, headings, url } = Astro.props
+import Layout from '@/layouts/Layout.astro'
+import Header from '@/components/Header.astro'
+const { frontmatter } = Astro.props
 ---
 
 <Layout title={frontmatter.title}>
   <div class="mt-8">
     <Header />
-    <!-- <TOC pageHeadings={headings} /> -->
     <article
-      class="prose md:prose-lg lg:prose-xl prose-p:text-justify prose-p:text-pretty prose-p:hyphens-auto mx-auto mt-12 lg:mt-24 mb-32 prose-a:text-accent prose-img:mx-auto prose-headings:text-balance"
+      class="prose md:prose-lg lg:prose-xl mx-auto mt-12 lg:mt-24 mb-32 prose-a:text-accent prose-img:mx-auto prose-headings:text-balance"
     >
       <slot />
     </article>

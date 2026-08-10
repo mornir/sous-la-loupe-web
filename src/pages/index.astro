@@ -1,14 +1,12 @@
 ---
-import Layout from '../layouts/Layout.astro'
-import AlpineSearchBox from '@components/AlpineSearchBox.astro'
-import WordCloud from '@components/word-cloud/WordCloud.astro'
-import NavLinks from '@components/NavLinks.astro'
-import Banner from '@components/Banner.astro'
+import Layout from '@/layouts/Layout.astro'
+import AlpineSearchBox from '@/components/AlpineSearchBox.astro'
+import WordCloud from '@/components/word-cloud/WordCloud.astro'
+import NavLinks from '@/components/NavLinks.astro'
 import { Icon } from 'astro-icon/components'
 ---
 
 <Layout title="Recherche | sous la loupe">
-  <Banner />
   <div class="hidden md:block">
     <WordCloud />
   </div>
